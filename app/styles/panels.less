@@ -1,0 +1,41 @@
+// Panel variations
+.panel {
+  position: relative;
+}
+.panel-inverse,
+.panel-primary,
+.panel-success,
+.panel-info,
+.panel-warning,
+.panel-danger {
+  color: rgba(255, 255, 255, 0.9);
+}
+.panel-inverse {
+  .panel-variant(@brand-inverse; #fff; @brand-inverse; @brand-inverse);
+  background-color: lighten(@brand-inverse, 10%);
+}
+.panel-primary {
+  background-color: lighten(@brand-primary, 10%);
+}
+.panel-success {
+  background-color: lighten(@brand-success, 10%);
+}
+.panel-info {
+  background-color: lighten(@brand-info, 10%);
+}
+.panel-warning {
+  background-color: darken(@brand-warning, 2%);
+}
+.panel-danger {
+  background-color: darken(@brand-danger, 2%);
+}
+.panel-inverse {
+	.panel-footer {
+		background-color: lighten(@brand-inverse, 1%);
+		border-top-color: darken(@brand-inverse, 5%)
+	}
+}
+.panel-none {
+  background-color: transparent;
+  .box-shadow (none);
+}

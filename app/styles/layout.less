@@ -1,0 +1,213 @@
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+body,
+.flex-columns {
+  .flex-display;
+}
+
+.wrapper {
+  width: 100%;
+}
+.flex-rows {
+  .flex (1 0 0px);
+  .flex-order (2);
+
+  .flex-display;
+  min-height: 100vh;
+  .flex-direction (column);
+}
+
+.main {
+  & > .content {
+    padding: @main-body-padding;
+  }
+}
+
+.sidebar {
+  .flex (none);
+  .flex-order (1);
+  overflow-x: hidden;
+  overflow-y: auto;
+  .transition (all 1s ease);
+  z-index: 3;
+
+  & > .content {
+    padding: @sidebar-body-padding;
+  }
+  .nav-stacked {
+    *[class*="fa-"] {
+      font-size: 16px;
+      width: 16px;
+      text-align: center;
+      margin-right: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+    & > li {
+      & > a {
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.aside {
+  .flex (none);
+  .flex-order (3);
+  overflow-x: hidden;
+  overflow-y: auto;
+  .transition (1s);
+  z-index: 2;
+
+  & > .content {
+    padding: @aside-body-padding;
+  }
+}
+
+.header,
+.footer {
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+
+    .navbar-form {
+      max-width: 300px;
+    }
+  }
+}
+.content {
+  .flex (1);
+  overflow: auto;
+}
+
+//== Theme
+//
+//##
+/* Default */
+.sidebar-default {
+  background-color: @sidebar-bg;
+  color: @sidebar-default-text;
+  border-right: 1px solid @sidebar-default-border;
+}
+.aside-default {
+  background-color: @aside-bg;
+  color: @aside-default-text;
+  border-left: 1px solid @aside-default-border;
+}
+.main-default {
+  background-color: @main-bg;
+  color: @main-default-text;
+}
+
+/* Inverse */
+.body-inverse {
+  background-color: @body-inverse-bg;
+  &,
+  a {
+    color: @body-inverse-text;
+  }
+}
+.sidebar-inverse {
+  background-color: @sidebar-inverse-bg;
+  color: @sidebar-inverse-text;
+  border-right: 1px solid @sidebar-inverse-border;
+}
+.aside-inverse {
+  background-color: @aside-inverse-bg;
+  color: @aside-inverse-text;
+  border-left: 1px solid @aside-inverse-border;
+  
+  a {
+    color: darken(@aside-inverse-text, 15%);
+    &:hover {
+      color: lighten(@aside-inverse-text, 15%);
+    }
+  }
+}
+.main-inverse {
+  background-color: @main-inverse-bg;
+  color: @main-inverse-text;
+}
+
+
+//== Responsive
+//
+//##
+
+@media (max-width: @screen-xs-max) {
+  .sidebar,
+  .aside {
+    position: fixed;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+  }
+  .sidebar {
+    left: -90%;
+    &.toggle {
+      left: 0;
+    }
+  }
+  .aside {
+    right: -90%;
+    &.toggle {
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-md-max) {
+  .sidebar,
+  .aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .sidebar {
+    width: @width-sidebar;
+    left: -@width-sidebar;
+    &.toggle {
+      left: 0;
+    }
+  }
+  .aside {
+    width: @width-aside;
+    right: -@width-aside;
+    &.toggle {
+      right: 0;
+    }
+  }
+
+}
+
+@media (min-width: @screen-lg-min) {
+  .sidebar {
+    width: @width-sidebar;
+    &.toggle {
+      position: relative;
+      -webkit-transform: translate(-@width-sidebar - 50, 0) scale(3, 1);
+      -moz-transform: translate(-@width-sidebar - 50, 0) scale(3, 1);
+      -ms-transform: translate(-@width-sidebar - 50, 0) scale(3, 1);
+      transform: translate(-@width-sidebar - 50, 0) scale(3, 1);
+      width: 0;
+    }
+  }
+  .aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .aside {
+    width: @width-aside;
+    right: -@width-aside;
+    &.toggle {
+      right: 0;
+    }
+  }
+}
+
