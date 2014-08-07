@@ -280,12 +280,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #555555;
+  color: #768591;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2f2f2f;
+  color: #535e67;
   text-decoration: underline;
 }
 a:focus {
@@ -494,28 +494,28 @@ cite {
   color: rgba(255, 255, 255, 0.4);
 }
 .text-primary {
-  color: #555555;
+  color: #768591;
 }
 a.text-primary:hover {
-  color: #3c3c3c;
+  color: #5e6b76;
 }
 .text-success {
-  color: #5e9932;
+  color: #629e1e;
 }
 a.text-success:hover {
-  color: #467325;
+  color: #477316;
 }
 .text-info {
-  color: #4295c2;
+  color: #51abd0;
 }
 a.text-info:hover {
-  color: #33789e;
+  color: #3394bb;
 }
 .text-warning {
-  color: #f4712a;
+  color: #f57300;
 }
 a.text-warning:hover {
-  color: #df560c;
+  color: #c25b00;
 }
 .text-danger {
   color: #d9534f;
@@ -525,10 +525,10 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #555555;
+  background-color: #768591;
 }
 a.bg-primary:hover {
-  background-color: #3c3c3c;
+  background-color: #5e6b76;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -1837,25 +1837,25 @@ select[multiple].input-lg {
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #5e9932;
+  color: #629e1e;
 }
 .has-success .form-control {
-  border-color: #5e9932;
+  border-color: #629e1e;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 .has-success .form-control:focus {
-  border-color: #467325;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #91cd64;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #91cd64;
+  border-color: #477316;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #96dc46;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #96dc46;
 }
 .has-success .input-group-addon {
-  color: #5e9932;
-  border-color: #5e9932;
+  color: #629e1e;
+  border-color: #629e1e;
   background-color: #dff0d8;
 }
 .has-success .form-control-feedback {
-  color: #5e9932;
+  color: #629e1e;
 }
 .has-warning .help-block,
 .has-warning .control-label,
@@ -1863,25 +1863,25 @@ select[multiple].input-lg {
 .has-warning .checkbox,
 .has-warning .radio-inline,
 .has-warning .checkbox-inline {
-  color: #f4712a;
+  color: #f57300;
 }
 .has-warning .form-control {
-  border-color: #f4712a;
+  border-color: #f57300;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 .has-warning .form-control:focus {
-  border-color: #df560c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f9b28b;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f9b28b;
+  border-color: #c25b00;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffa95c;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffa95c;
 }
 .has-warning .input-group-addon {
-  color: #f4712a;
-  border-color: #f4712a;
+  color: #f57300;
+  border-color: #f57300;
   background-color: #fcf8e3;
 }
 .has-warning .form-control-feedback {
-  color: #f4712a;
+  color: #f57300;
 }
 .has-error .help-block,
 .has-error .control-label,
@@ -2073,8 +2073,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #555555;
-  border-color: #494949;
+  background-color: #768591;
+  border-color: #6a7884;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2082,8 +2082,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #414141;
-  border-color: #2a2a2a;
+  background-color: #63707b;
+  border-color: #4f5962;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2105,17 +2105,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #555555;
-  border-color: #494949;
+  background-color: #768591;
+  border-color: #6a7884;
 }
 .btn-primary .badge {
-  color: #555555;
+  color: #768591;
   background-color: #ffffff;
 }
 .btn-success {
   color: #ffffff;
-  background-color: #5e9932;
-  border-color: #52862c;
+  background-color: #629e1e;
+  border-color: #55891a;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2123,8 +2123,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #4b7a28;
-  border-color: #36581d;
+  background-color: #4d7c17;
+  border-color: #355510;
 }
 .btn-success:active,
 .btn-success.active,
@@ -2146,17 +2146,17 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #5e9932;
-  border-color: #52862c;
+  background-color: #629e1e;
+  border-color: #55891a;
 }
 .btn-success .badge {
-  color: #5e9932;
+  color: #629e1e;
   background-color: #ffffff;
 }
 .btn-info {
   color: #ffffff;
-  background-color: #4295c2;
-  border-color: #275b77;
+  background-color: #51abd0;
+  border-color: #287493;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -2164,8 +2164,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #357ea6;
-  border-color: #183849;
+  background-color: #359ac3;
+  border-color: #1b4e63;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2187,17 +2187,17 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #4295c2;
-  border-color: #275b77;
+  background-color: #51abd0;
+  border-color: #287493;
 }
 .btn-info .badge {
-  color: #4295c2;
+  color: #51abd0;
   background-color: #ffffff;
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #f4712a;
-  border-color: #c24b0a;
+  background-color: #f57300;
+  border-color: #a34d00;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -2205,8 +2205,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #e95a0c;
-  border-color: #883407;
+  background-color: #cc6000;
+  border-color: #663000;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -2228,11 +2228,11 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f4712a;
-  border-color: #c24b0a;
+  background-color: #f57300;
+  border-color: #a34d00;
 }
 .btn-warning .badge {
-  color: #f4712a;
+  color: #f57300;
   background-color: #ffffff;
 }
 .btn-danger {
@@ -2277,7 +2277,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #555555;
+  color: #768591;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2298,7 +2298,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #2f2f2f;
+  color: #535e67;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -2432,7 +2432,7 @@ input[type="button"].btn-block {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #555555;
+  background-color: #768591;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -2854,7 +2854,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #555555;
+  border-color: #768591;
 }
 .nav .nav-divider {
   height: 1px;
@@ -2947,7 +2947,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #555555;
+  background-color: #768591;
 }
 .nav-stacked > li {
   float: none;
@@ -3395,8 +3395,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #333333;
 }
 .navbar-inverse {
-  background-color: #1d181a;
-  border-color: #1d181a;
+  background-color: #363636;
+  border-color: #363636;
 }
 .navbar-inverse .navbar-brand {
   color: rgba(255, 255, 255, 0.4);
@@ -3407,7 +3407,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #a8979d;
+  color: #bbbbbb;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.4);
@@ -3421,7 +3421,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #020101;
+  background-color: #1c1c1c;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3441,20 +3441,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #0a0809;
+  border-color: #242424;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #020101;
+  background-color: #1c1c1c;
   color: #ffffff;
 }
 @media (max-width: -1) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #1d181a;
+    border-color: #363636;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #1d181a;
+    background-color: #363636;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: rgba(255, 255, 255, 0.4);
@@ -3468,7 +3468,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #020101;
+    background-color: #1c1c1c;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -3517,7 +3517,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #555555;
+  color: #768591;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -3537,7 +3537,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #2f2f2f;
+  color: #535e67;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -3549,8 +3549,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #4d4044;
-  border-color: #555555;
+  background-color: #616161;
+  border-color: #768591;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -3665,32 +3665,32 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: rgba(230, 230, 230, 0.4);
 }
 .label-primary {
-  background-color: #555555;
+  background-color: #768591;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #3c3c3c;
+  background-color: #5e6b76;
 }
 .label-success {
-  background-color: #5e9932;
+  background-color: #629e1e;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #467325;
+  background-color: #477316;
 }
 .label-info {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #33789e;
+  background-color: #3394bb;
 }
 .label-warning {
-  background-color: #f4712a;
+  background-color: #f57300;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #df560c;
+  background-color: #c25b00;
 }
 .label-danger {
   background-color: #d9534f;
@@ -3732,7 +3732,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #555555;
+  color: #768591;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
@@ -3792,7 +3792,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #555555;
+  border-color: #768591;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -3830,35 +3830,35 @@ a.thumbnail.active {
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
-  color: #5e9932;
+  color: #629e1e;
 }
 .alert-success hr {
   border-top-color: #c9e2b3;
 }
 .alert-success .alert-link {
-  color: #467325;
+  color: #477316;
 }
 .alert-info {
   background-color: #d9edf7;
   border-color: #bce8f1;
-  color: #4295c2;
+  color: #51abd0;
 }
 .alert-info hr {
   border-top-color: #a6e1ec;
 }
 .alert-info .alert-link {
-  color: #33789e;
+  color: #3394bb;
 }
 .alert-warning {
   background-color: #fcf8e3;
   border-color: #faebcc;
-  color: #f4712a;
+  color: #f57300;
 }
 .alert-warning hr {
   border-top-color: #f7e1b5;
 }
 .alert-warning .alert-link {
-  color: #df560c;
+  color: #c25b00;
 }
 .alert-danger {
   background-color: #f2dede;
@@ -3942,8 +3942,8 @@ a.list-group-item.active:hover,
 a.list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #768591;
+  border-color: #768591;
 }
 a.list-group-item.active .list-group-item-heading,
 a.list-group-item.active:hover .list-group-item-heading,
@@ -3953,73 +3953,73 @@ a.list-group-item.active:focus .list-group-item-heading {
 a.list-group-item.active .list-group-item-text,
 a.list-group-item.active:hover .list-group-item-text,
 a.list-group-item.active:focus .list-group-item-text {
-  color: #bbbbbb;
+  color: #e7eaec;
 }
 .list-group-item-success {
-  color: #5e9932;
+  color: #629e1e;
   background-color: #dff0d8;
 }
 a.list-group-item-success {
-  color: #5e9932;
+  color: #629e1e;
 }
 a.list-group-item-success .list-group-item-heading {
   color: inherit;
 }
 a.list-group-item-success:hover,
 a.list-group-item-success:focus {
-  color: #5e9932;
+  color: #629e1e;
   background-color: #d0e9c6;
 }
 a.list-group-item-success.active,
 a.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus {
   color: #fff;
-  background-color: #5e9932;
-  border-color: #5e9932;
+  background-color: #629e1e;
+  border-color: #629e1e;
 }
 .list-group-item-info {
-  color: #4295c2;
+  color: #51abd0;
   background-color: #d9edf7;
 }
 a.list-group-item-info {
-  color: #4295c2;
+  color: #51abd0;
 }
 a.list-group-item-info .list-group-item-heading {
   color: inherit;
 }
 a.list-group-item-info:hover,
 a.list-group-item-info:focus {
-  color: #4295c2;
+  color: #51abd0;
   background-color: #c4e3f3;
 }
 a.list-group-item-info.active,
 a.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus {
   color: #fff;
-  background-color: #4295c2;
-  border-color: #4295c2;
+  background-color: #51abd0;
+  border-color: #51abd0;
 }
 .list-group-item-warning {
-  color: #f4712a;
+  color: #f57300;
   background-color: #fcf8e3;
 }
 a.list-group-item-warning {
-  color: #f4712a;
+  color: #f57300;
 }
 a.list-group-item-warning .list-group-item-heading {
   color: inherit;
 }
 a.list-group-item-warning:hover,
 a.list-group-item-warning:focus {
-  color: #f4712a;
+  color: #f57300;
   background-color: #faf2cc;
 }
 a.list-group-item-warning.active,
 a.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus {
   color: #fff;
-  background-color: #f4712a;
-  border-color: #f4712a;
+  background-color: #f57300;
+  border-color: #f57300;
 }
 .list-group-item-danger {
   color: #d9534f;
@@ -4263,39 +4263,39 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #dddddd;
 }
 .panel-primary {
-  border-color: #555555;
+  border-color: #768591;
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #768591;
+  border-color: #768591;
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #555555;
+  border-top-color: #768591;
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #555555;
+  border-bottom-color: #768591;
 }
 .panel-success {
-  border-color: #5e9932;
+  border-color: #629e1e;
 }
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #5e9932;
-  border-color: #5e9932;
+  background-color: #629e1e;
+  border-color: #629e1e;
 }
 .panel-success > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #5e9932;
+  border-top-color: #629e1e;
 }
 .panel-success > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #5e9932;
+  border-bottom-color: #629e1e;
 }
 .panel-info {
   border-color: #4f98af;
 }
 .panel-info > .panel-heading {
   color: #ffffff;
-  background-color: #4295c2;
+  background-color: #51abd0;
   border-color: #4f98af;
 }
 .panel-info > .panel-heading + .panel-collapse .panel-body {
@@ -4305,18 +4305,18 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #4f98af;
 }
 .panel-warning {
-  border-color: #f4712a;
+  border-color: #f57300;
 }
 .panel-warning > .panel-heading {
   color: #ffffff;
-  background-color: #f4712a;
-  border-color: #f4712a;
+  background-color: #f57300;
+  border-color: #f57300;
 }
 .panel-warning > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #f4712a;
+  border-top-color: #f57300;
 }
 .panel-warning > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #f4712a;
+  border-bottom-color: #f57300;
 }
 .panel-danger {
   border-color: #d9534f;
@@ -5202,30 +5202,30 @@ body,
 }
 /* Inverse */
 .body-inverse {
-  background-color: #261f21;
+  background-color: #3e3e3e;
 }
 .body-inverse,
 .body-inverse a {
   color: #ffffff;
 }
 .sidebar-inverse {
-  background-color: #261f21;
-  color: #ab999f;
-  border-right: 1px solid #231d1f;
+  background-color: #3e3e3e;
+  color: #bdbdbd;
+  border-right: 1px solid #3b3b3b;
 }
 .aside-inverse {
-  background-color: #261f21;
-  color: #ab999f;
-  border-left: 1px solid #231d1f;
+  background-color: #3e3e3e;
+  color: #bdbdbd;
+  border-left: 1px solid #3b3b3b;
 }
 .aside-inverse a {
-  color: #877078;
+  color: #979797;
 }
 .aside-inverse a:hover {
-  color: #cdc3c7;
+  color: #e3e3e3;
 }
 .main-inverse {
-  background-color: #2b2426;
+  background-color: #434343;
   color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -5306,22 +5306,22 @@ body,
   background-color: #555555;
 }
 .bg-success {
-  background-color: #5e9932;
+  background-color: #629e1e;
 }
 .bg-success-light {
-  background-color: #83c651;
+  background-color: #89d831;
 }
 .bg-success-dark {
-  background-color: #3b5f1f;
+  background-color: #3a5e12;
 }
 .bg-info {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .bg-info-light {
-  background-color: #7cb5d5;
+  background-color: #8dc8e0;
 }
 .bg-info-dark {
-  background-color: #2d6a8b;
+  background-color: #2d84a7;
 }
 .bg-info-gradient {
   background-image: -webkit-linear-gradient(top, #1d62f0 0%, #1ad6fd 100%);
@@ -5330,13 +5330,13 @@ body,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1d62f0', endColorstr='#ff1ad6fd', GradientType=0);
 }
 .bg-primary {
-  background-color: #555555;
+  background-color: #768591;
 }
 .bg-primary-light {
-  background-color: #7c7c7c;
+  background-color: #a0abb3;
 }
 .bg-primary-dark {
-  background-color: #2f2f2f;
+  background-color: #535e67;
 }
 .bg-primary-gradient {
   background-image: -webkit-linear-gradient(top, #5ac8fb 0%, #52edc7 100%);
@@ -5345,16 +5345,16 @@ body,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5ac8fb', endColorstr='#ff52edc7', GradientType=0);
 }
 .bg-warning {
-  background-color: #f4712a;
+  background-color: #f57300;
 }
 .bg-warning-light {
-  background-color: #f8a173;
+  background-color: #ff9b42;
 }
 .bg-warning-dark {
-  background-color: #c74d0a;
+  background-color: #a94f00;
 }
 .bg-warning-vibrant {
-  background-color: #ff7e39;
+  background-color: #ff8010;
 }
 .bg-danger {
   background-color: #d9534f;
@@ -5378,13 +5378,13 @@ body,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff2a68', endColorstr='#ffff5e3a', GradientType=0);
 }
 .bg-inverse {
-  background-color: #231d1f;
+  background-color: #3b3b3b;
 }
 .bg-inverse-light {
-  background-color: #4d4044;
+  background-color: #616161;
 }
 .bg-inverse-dark {
-  background-color: #000000;
+  background-color: #151515;
 }
 .navbar-inline .navbar-brand,
 .navbar-inline .navbar-nav > li {
@@ -5430,14 +5430,14 @@ body,
   border-bottom: 2px solid transparent;
 }
 .nav-underline > li > a:hover {
-  border-color: #555555;
+  border-color: #768591;
   background-color: transparent;
 }
 .nav-underline > li.active > a,
 .nav-underline > li.active > a:hover,
 .nav-underline > li.active > a:focus {
   color: #555555;
-  border-bottom-color: #5e9932;
+  border-bottom-color: #629e1e;
   cursor: default;
 }
 .nav-underline.nav-justified {
@@ -5507,45 +5507,45 @@ body,
   color: #fff;
 }
 .navbar-primary {
-  background-color: #555555;
+  background-color: #768591;
 }
 .navbar-primary input,
 .navbar-primary .form-control {
-  border-color: #494949;
+  border-color: #6a7884;
 }
 .navbar-primary a {
-  color: #000000;
+  color: #262b2f;
 }
 .navbar-success {
-  background-color: #6aac38;
+  background-color: #6fb322;
 }
 .navbar-success input,
 .navbar-success .form-control,
 .navbar-success .btn-success {
-  border-color: #426b23;
+  border-color: #426b14;
 }
 .navbar-success a {
-  color: #426b23;
+  color: #426b14;
 }
 .navbar-info {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .navbar-info input,
 .navbar-info .form-control {
-  border-color: #275b77;
+  border-color: #287493;
 }
 .navbar-info a {
-  color: #142f3e;
+  color: #184557;
 }
 .navbar-warning {
-  background-color: #f36b20;
+  background-color: #eb6e00;
 }
 .navbar-warning input,
 .navbar-warning .form-control {
-  border-color: #f36112;
+  border-color: #a94f00;
 }
 .navbar-warning a {
-  color: #662705;
+  color: #ffd1a8;
 }
 .navbar-danger {
   background-color: #d9534f;
@@ -5558,35 +5558,35 @@ body,
   color: #611715;
 }
 .navbar-success-light {
-  background-color: #91cd64;
+  background-color: #96dc46;
 }
 .navbar-success-light input,
 .navbar-success-light .form-control,
 .navbar-success-light .btn-success {
-  border-color: #65a536;
+  border-color: #6aab20;
 }
 .navbar-success-light a {
-  color: #65a536;
+  color: #6aab20;
 }
 .navbar-info-light {
-  background-color: #7cb5d5;
+  background-color: #8dc8e0;
 }
 .navbar-info-light input,
 .navbar-info-light .form-control {
-  border-color: #3987b1;
+  border-color: #3da1cb;
 }
 .navbar-info-light a {
-  color: #275b77;
+  color: #287493;
 }
 .navbar-warning-light {
-  background-color: #f79b69;
+  background-color: #ff9638;
 }
 .navbar-warning-light input,
 .navbar-warning-light .form-control {
-  border-color: #f7915a;
+  border-color: #ff8d29;
 }
 .navbar-warning-light a {
-  color: #af4309;
+  color: #8f4300;
 }
 .navbar-danger-light {
   background-color: #f26c63;
@@ -5599,35 +5599,35 @@ body,
   color: #96150d;
 }
 .navbar-success-dark {
-  background-color: #467325;
+  background-color: #477316;
 }
 .navbar-success-dark input,
 .navbar-success-dark .form-control,
 .navbar-success-dark .btn-success {
-  border-color: #1e3110;
+  border-color: #1a2a08;
 }
 .navbar-success-dark a {
-  color: #1e3110;
+  color: #1a2a08;
 }
 .navbar-info-dark {
-  background-color: #2d6a8b;
+  background-color: #2d84a7;
 }
 .navbar-info-dark input,
 .navbar-info-dark .form-control {
-  border-color: #142f3e;
+  border-color: #184457;
 }
 .navbar-info-dark a {
-  color: #010304;
+  color: #07151b;
 }
 .navbar-warning-dark {
-  background-color: #be490a;
+  background-color: #9e4a00;
 }
 .navbar-warning-dark input,
 .navbar-warning-dark .form-control {
-  border-color: #af4309;
+  border-color: #8f4300;
 }
 .navbar-warning-dark a {
-  color: #1d0b02;
+  color: #000000;
 }
 .navbar-danger-dark {
   background-color: #b52b27;
@@ -5641,8 +5641,8 @@ body,
 }
 .btn-inverse {
   color: #ffffff;
-  background-color: #231d1f;
-  border-color: #151113;
+  background-color: #3b3b3b;
+  border-color: #2e2e2e;
 }
 .btn-inverse:hover,
 .btn-inverse:focus,
@@ -5650,8 +5650,8 @@ body,
 .btn-inverse.active,
 .open .dropdown-toggle.btn-inverse {
   color: #ffffff;
-  background-color: #0d0b0b;
-  border-color: #000000;
+  background-color: #272727;
+  border-color: #101010;
 }
 .btn-inverse:active,
 .btn-inverse.active,
@@ -5673,11 +5673,11 @@ fieldset[disabled] .btn-inverse:active,
 .btn-inverse.disabled.active,
 .btn-inverse[disabled].active,
 fieldset[disabled] .btn-inverse.active {
-  background-color: #231d1f;
-  border-color: #151113;
+  background-color: #3b3b3b;
+  border-color: #2e2e2e;
 }
 .btn-inverse .badge {
-  color: #231d1f;
+  color: #3b3b3b;
   background-color: #ffffff;
 }
 .btn-outline {
@@ -5710,8 +5710,8 @@ fieldset[disabled] .btn-inverse.active {
 }
 .btn-default.active {
   color: #ffffff;
-  background-color: #4295c2;
-  border-color: #275b77;
+  background-color: #51abd0;
+  border-color: #287493;
 }
 .btn-default.active:hover,
 .btn-default.active:focus,
@@ -5719,8 +5719,8 @@ fieldset[disabled] .btn-inverse.active {
 .btn-default.active.active,
 .open .dropdown-toggle.btn-default.active {
   color: #ffffff;
-  background-color: #357ea6;
-  border-color: #183849;
+  background-color: #359ac3;
+  border-color: #1b4e63;
 }
 .btn-default.active:active,
 .btn-default.active.active,
@@ -5742,11 +5742,11 @@ fieldset[disabled] .btn-default.active:active,
 .btn-default.active.disabled.active,
 .btn-default.active[disabled].active,
 fieldset[disabled] .btn-default.active.active {
-  background-color: #4295c2;
-  border-color: #275b77;
+  background-color: #51abd0;
+  border-color: #287493;
 }
 .btn-default.active .badge {
-  color: #4295c2;
+  color: #51abd0;
   background-color: #ffffff;
 }
 .btn-wide-lg {
@@ -5846,32 +5846,32 @@ fieldset[disabled] .btn-default.active.active {
   background-color: rgba(230, 230, 230, 0.4);
 }
 .badge-primary {
-  background-color: #555555;
+  background-color: #768591;
 }
 .badge-primary[href]:hover,
 .badge-primary[href]:focus {
-  background-color: #3c3c3c;
+  background-color: #5e6b76;
 }
 .badge-success {
-  background-color: #5e9932;
+  background-color: #629e1e;
 }
 .badge-success[href]:hover,
 .badge-success[href]:focus {
-  background-color: #467325;
+  background-color: #477316;
 }
 .badge-info {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .badge-info[href]:hover,
 .badge-info[href]:focus {
-  background-color: #33789e;
+  background-color: #3394bb;
 }
 .badge-warning {
-  background-color: #f4712a;
+  background-color: #f57300;
 }
 .badge-warning[href]:hover,
 .badge-warning[href]:focus {
-  background-color: #df560c;
+  background-color: #c25b00;
 }
 .badge-danger {
   background-color: #d9534f;
@@ -5881,38 +5881,38 @@ fieldset[disabled] .btn-default.active.active {
   background-color: #c9302c;
 }
 .badge-inverse {
-  background-color: #231d1f;
+  background-color: #3b3b3b;
 }
 .badge-inverse[href]:hover,
 .badge-inverse[href]:focus {
-  background-color: #070606;
+  background-color: #222222;
 }
 .badge-primary-light {
-  background-color: #6f6f6f;
+  background-color: #929ea8;
 }
 .badge-success-light {
-  background-color: #76bf3f;
+  background-color: #7dc926;
 }
 .badge-info-light {
-  background-color: #69abce;
+  background-color: #79bedb;
 }
 .badge-warning-light {
-  background-color: #f7915a;
+  background-color: #ff8d29;
 }
 .badge-danger-light {
   background-color: #e27c79;
 }
 .badge-primary-dark {
-  background-color: #3c3c3c;
+  background-color: #5e6b76;
 }
 .badge-success-dark {
-  background-color: #467325;
+  background-color: #477316;
 }
 .badge-info-dark {
-  background-color: #33789e;
+  background-color: #3394bb;
 }
 .badge-warning-dark {
-  background-color: #df560c;
+  background-color: #c25b00;
 }
 .badge-danger-dark {
   background-color: #c9302c;
@@ -5927,20 +5927,20 @@ fieldset[disabled] .btn-default.active.active {
 .table-inverse.table > thead > tr > td,
 .table-inverse.table > tbody > tr > td,
 .table-inverse.table > tfoot > tr > td {
-  border-color: #31292b;
+  border-color: #484848;
 }
 .table-inverse.table > thead > tr > th {
-  border-color: #31292b;
-  color: #917b82;
+  border-color: #484848;
+  color: #a1a1a1;
 }
 .table-inverse.table > tbody + tbody {
-  border-color: #31292b;
+  border-color: #484848;
 }
 .table-inverse.table .table {
   background-color: #3f353b;
 }
 .table-inverse.table-bordered {
-  border-color: #31292b;
+  border-color: #484848;
 }
 .table-inverse.table-bordered > thead > tr > th,
 .table-inverse.table-bordered > tbody > tr > th,
@@ -5948,7 +5948,7 @@ fieldset[disabled] .btn-default.active.active {
 .table-inverse.table-bordered > thead > tr > td,
 .table-inverse.table-bordered > tbody > tr > td,
 .table-inverse.table-bordered > tfoot > tr > td {
-  border-color: #31292b;
+  border-color: #484848;
 }
 .table-inverse.table-bordered > thead > tr > th,
 .table-inverse.table-bordered > thead > tr > td {
@@ -5956,11 +5956,11 @@ fieldset[disabled] .btn-default.active.active {
 }
 .table-inverse.table-hover > tbody > tr:hover > td,
 .table-inverse.table-hover > tbody > tr:hover > th {
-  background-color: #070606;
+  background-color: #222222;
 }
 .table-inverse .table-striped > tbody > tr:nth-child(odd) > td,
 .table-inverse .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #1d181a;
+  background-color: #363636;
 }
 .text-xs,
 .text-sm,
@@ -6027,31 +6027,31 @@ fieldset[disabled] .btn-default.active.active {
   text-decoration: none;
 }
 .text-success-light {
-  color: #83c651;
+  color: #89d831;
 }
 .text-success-dark {
-  color: #3b5f1f;
+  color: #3a5e12;
 }
 .text-info-light {
-  color: #7cb5d5;
+  color: #8dc8e0;
 }
 .text-info-dark {
-  color: #2d6a8b;
+  color: #2d84a7;
 }
 .text-primary {
-  color: #555555;
+  color: #768591;
 }
 .text-primary-light {
-  color: #7c7c7c;
+  color: #a0abb3;
 }
 .text-primary-dark {
-  color: #2f2f2f;
+  color: #535e67;
 }
 .text-warning-light {
-  color: #f8a173;
+  color: #ff9b42;
 }
 .text-warning-dark {
-  color: #c74d0a;
+  color: #a94f00;
 }
 .text-danger-light {
   color: #F26C63;
@@ -6060,13 +6060,13 @@ fieldset[disabled] .btn-default.active.active {
   color: #b52b27;
 }
 .text-inverse {
-  color: #231d1f;
+  color: #3b3b3b;
 }
 .text-inverse-light {
-  color: #4d4044;
+  color: #616161;
 }
 .text-inverse-dark {
-  color: #000000;
+  color: #151515;
 }
 .text-acqua {
   color: #1293CE;
@@ -6075,29 +6075,29 @@ fieldset[disabled] .btn-default.active.active {
   color: #5856d6;
 }
 .text-vmware-light {
-  color: #4d4044;
+  color: #616161;
 }
 .text-vmware-dark {
-  color: #000000;
+  color: #151515;
 }
 /* HR */
 .hr-success {
-  border-top-color: #467325;
+  border-top-color: #477316;
 }
 .hr-info {
-  border-top-color: #33789e;
+  border-top-color: #3394bb;
 }
 .hr-primary {
-  border-top-color: #3c3c3c;
+  border-top-color: #5e6b76;
 }
 .hr-warning {
-  border-top-color: #df560c;
+  border-top-color: #c25b00;
 }
 .hr-danger {
   border-top-color: #c9302c;
 }
 .hr-inverse {
-  border-top-color: #070606;
+  border-top-color: #222222;
 }
 @media (min-width: 768px) {
   .visible-xs-inline {
@@ -6112,22 +6112,22 @@ fieldset[disabled] .btn-default.active.active {
 .long-shadow-success {
   color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 0 #6fb43b, 1px 1px 0 #6fb43b, 2px 2px 0 #6fb43b, 3px 3px 0 #6fb43b, 4px 4px 0 #6fb43b, 5px 5px 0 #6fb43b, 6px 6px 0 #6fb43b, 7px 7px 0 #6fb43b, 8px 8px 0 #6fb43b, 9px 9px 0 #6fb43b, 10px 10px 0 #6fb43b, 11px 11px 0 #6fb43b, 12px 12px 0 #6fb43b, 13px 13px 0 #6fb43b, 14px 14px 0 #6fb43b, 15px 15px 0 #6fb43b, 16px 16px 0 #6fb43b, 17px 17px 0 #6fb43b, 18px 18px 0 #6fb43b, 19px 19px 0 #6fb43b, 20px 20px 0 #6fb43b, 21px 21px 0 #6fb43b, 22px 22px 0 #6fb43b, 23px 23px 0 #6fb43b, 24px 24px 0 #6fb43b, 25px 25px 0 #6fb43b, 26px 26px 0 #6fb43b, 27px 27px 0 #6fb43b, 28px 28px 0 #6fb43b, 29px 29px 0 #6fb43b, 30px 30px 0 #6fb43b, 31px 31px 0 #6fb43b, 32px 32px 0 #6fb43b, 33px 33px 0 #6fb43b, 34px 34px 0 #6fb43b, 35px 35px 0 #6fb43b, 36px 36px 0 #6fb43b, 37px 37px 0 #6fb43b, 38px 38px 0 #6fb43b, 39px 39px 0 #6fb43b, 40px 40px 0 #6fb43b, 41px 41px 0 #6fb43b, 42px 42px 0 #6fb43b, 43px 43px 0 #6fb43b, 44px 44px 0 #6fb43b, 45px 45px 0 #6fb43b, 46px 46px 0 #6fb43b, 47px 47px 0 #6fb43b, 48px 48px 0 #6fb43b, 49px 49px 0 #6fb43b, 50px 50px 0 #6fb43b, 51px 51px 0 #6fb43b, 52px 52px 0 #6fb43b, 53px 53px 0 #6fb43b, 54px 54px 0 #6fb43b, 55px 55px 0 #6fb43b, 56px 56px 0 #6fb43b, 57px 57px 0 #6fb43b, 58px 58px 0 #6fb43b, 59px 59px 0 #6fb43b, 60px 60px 0 #6fb43b, 61px 61px 0 #6fb43b, 62px 62px 0 #6fb43b, 63px 63px 0 #6fb43b, 64px 64px 0 #6fb43b, 65px 65px 0 #6fb43b, 66px 66px 0 #6fb43b, 67px 67px 0 #6fb43b, 68px 68px 0 #6fb43b, 69px 69px 0 #6fb43b, 70px 70px 0 #6fb43b, 71px 71px 0 #6fb43b, 71px 71px 0 #6fb43b, 72px 72px 0 #6fb43b, 73px 73px 0 #6fb43b, 74px 74px 0 #6fb43b, 75px 75px 0 #6fb43b, 76px 76px 0 #6fb43b, 77px 77px 0 #6fb43b, 78px 78px 0 #6fb43b, 79px 79px 0 #6fb43b, 80px 80px 0 #6fb43b, 81px 81px 0 #6fb43b, 82px 82px 0 #6fb43b, 83px 83px 0 #6fb43b, 84px 84px 0 #6fb43b, 85px 85px 0 #6fb43b, 86px 862px 0 #6fb43b, 87px 87px 0 #6fb43b, 88px 88px 0 #6fb43b, 89px 89px 0 #6fb43b, 90px 90px 0 #6fb43b, 91px 91px 0 #6fb43b, 92px 92px 0 #6fb43b, 93px 93px 0 #6fb43b, 94px 94px 0 #6fb43b, 95px 95px 0 #6fb43b, 96px 96px 0 #6fb43b, 97px 97px 0 #6fb43b, 98px 98px 0 #6fb43b, 99px 99px 0 #6fb43b, 100px 100px 0 #6fb43b, 101px 101px 0 #6fb43b, 102px 102px 0 #6fb43b, 103px 103px 0 #6fb43b, 104px 104px 0 #6fb43b, 105px 105px 0 #6fb43b, 106px 106px 0 #6fb43b, 107px 107px 0 #6fb43b, 108px 108px 0 #6fb43b, 109px 109px 0 #6fb43b, 110px 110px 0 #6fb43b, 111px 111px 0 #6fb43b, 1px 1px 0 rgba(125, 179, 0, 0.98), 2px 2px 0 rgba(125, 179, 0, 0.96), 3px 3px 0 rgba(125, 179, 0, 0.94), 4px 4px 0 rgba(125, 179, 0, 0.92), 5px 5px 0 rgba(125, 179, 0, 0.9), 6px 6px 0 rgba(125, 179, 0, 0.88), 7px 7px 0 rgba(125, 179, 0, 0.86), 8px 8px 0 rgba(125, 179, 0, 0.84), 9px 9px 0 rgba(125, 179, 0, 0.82), 10px 10px 0 rgba(125, 179, 0, 0.8), 11px 11px 0 rgba(125, 179, 0, 0.78), 12px 12px 0 rgba(125, 179, 0, 0.76), 13px 13px 0 rgba(125, 179, 0, 0.74), 14px 14px 0 rgba(125, 179, 0, 0.72), 15px 15px 0 rgba(125, 179, 0, 0.7), 16px 16px 0 rgba(125, 179, 0, 0.68), 17px 17px 0 rgba(125, 179, 0, 0.66), 18px 18px 0 rgba(125, 179, 0, 0.64), 19px 19px 0 rgba(125, 179, 0, 0.62), 20px 20px 0 rgba(125, 179, 0, 0.6), 21px 21px 0 rgba(125, 179, 0, 0.58), 22px 22px 0 rgba(125, 179, 0, 0.56), 23px 23px 0 rgba(125, 179, 0, 0.54), 24px 24px 0 rgba(125, 179, 0, 0.52), 25px 25px 0 rgba(125, 179, 0, 0.5), 26px 26px 0 rgba(125, 179, 0, 0.48), 27px 27px 0 rgba(125, 179, 0, 0.46), 28px 28px 0 rgba(125, 179, 0, 0.44), 29px 29px 0 rgba(125, 179, 0, 0.42), 30px 30px 0 rgba(125, 179, 0, 0.4), 31px 31px 0 rgba(125, 179, 0, 0.38), 32px 32px 0 rgba(125, 179, 0, 0.36), 33px 33px 0 rgba(125, 179, 0, 0.34), 34px 34px 0 rgba(125, 179, 0, 0.32), 35px 35px 0 rgba(125, 179, 0, 0.3), 36px 36px 0 rgba(125, 179, 0, 0.28), 37px 37px 0 rgba(125, 179, 0, 0.26), 38px 38px 0 rgba(125, 179, 0, 0.24), 39px 39px 0 rgba(125, 179, 0, 0.22), 40px 40px 0 rgba(125, 179, 0, 0.2), 41px 41px 0 rgba(125, 179, 0, 0.18), 42px 42px 0 rgba(125, 179, 0, 0.16), 43px 43px 0 rgba(125, 179, 0, 0.14), 44px 44px 0 rgba(125, 179, 0, 0.12), 45px 45px 0 rgba(125, 179, 0, 0.1), 46px 46px 0 rgba(125, 179, 0, 0.08), 47px 47px 0 rgba(125, 179, 0, 0.06), 48px 48px 0 rgba(125, 179, 0, 0.04), 50px 50px 0 rgba(125, 179, 0, 0);
+  text-shadow: 0px 0px 0 #75bc24, 1px 1px 0 #75bc24, 2px 2px 0 #75bc24, 3px 3px 0 #75bc24, 4px 4px 0 #75bc24, 5px 5px 0 #75bc24, 6px 6px 0 #75bc24, 7px 7px 0 #75bc24, 8px 8px 0 #75bc24, 9px 9px 0 #75bc24, 10px 10px 0 #75bc24, 11px 11px 0 #75bc24, 12px 12px 0 #75bc24, 13px 13px 0 #75bc24, 14px 14px 0 #75bc24, 15px 15px 0 #75bc24, 16px 16px 0 #75bc24, 17px 17px 0 #75bc24, 18px 18px 0 #75bc24, 19px 19px 0 #75bc24, 20px 20px 0 #75bc24, 21px 21px 0 #75bc24, 22px 22px 0 #75bc24, 23px 23px 0 #75bc24, 24px 24px 0 #75bc24, 25px 25px 0 #75bc24, 26px 26px 0 #75bc24, 27px 27px 0 #75bc24, 28px 28px 0 #75bc24, 29px 29px 0 #75bc24, 30px 30px 0 #75bc24, 31px 31px 0 #75bc24, 32px 32px 0 #75bc24, 33px 33px 0 #75bc24, 34px 34px 0 #75bc24, 35px 35px 0 #75bc24, 36px 36px 0 #75bc24, 37px 37px 0 #75bc24, 38px 38px 0 #75bc24, 39px 39px 0 #75bc24, 40px 40px 0 #75bc24, 41px 41px 0 #75bc24, 42px 42px 0 #75bc24, 43px 43px 0 #75bc24, 44px 44px 0 #75bc24, 45px 45px 0 #75bc24, 46px 46px 0 #75bc24, 47px 47px 0 #75bc24, 48px 48px 0 #75bc24, 49px 49px 0 #75bc24, 50px 50px 0 #75bc24, 51px 51px 0 #75bc24, 52px 52px 0 #75bc24, 53px 53px 0 #75bc24, 54px 54px 0 #75bc24, 55px 55px 0 #75bc24, 56px 56px 0 #75bc24, 57px 57px 0 #75bc24, 58px 58px 0 #75bc24, 59px 59px 0 #75bc24, 60px 60px 0 #75bc24, 61px 61px 0 #75bc24, 62px 62px 0 #75bc24, 63px 63px 0 #75bc24, 64px 64px 0 #75bc24, 65px 65px 0 #75bc24, 66px 66px 0 #75bc24, 67px 67px 0 #75bc24, 68px 68px 0 #75bc24, 69px 69px 0 #75bc24, 70px 70px 0 #75bc24, 71px 71px 0 #75bc24, 71px 71px 0 #75bc24, 72px 72px 0 #75bc24, 73px 73px 0 #75bc24, 74px 74px 0 #75bc24, 75px 75px 0 #75bc24, 76px 76px 0 #75bc24, 77px 77px 0 #75bc24, 78px 78px 0 #75bc24, 79px 79px 0 #75bc24, 80px 80px 0 #75bc24, 81px 81px 0 #75bc24, 82px 82px 0 #75bc24, 83px 83px 0 #75bc24, 84px 84px 0 #75bc24, 85px 85px 0 #75bc24, 86px 862px 0 #75bc24, 87px 87px 0 #75bc24, 88px 88px 0 #75bc24, 89px 89px 0 #75bc24, 90px 90px 0 #75bc24, 91px 91px 0 #75bc24, 92px 92px 0 #75bc24, 93px 93px 0 #75bc24, 94px 94px 0 #75bc24, 95px 95px 0 #75bc24, 96px 96px 0 #75bc24, 97px 97px 0 #75bc24, 98px 98px 0 #75bc24, 99px 99px 0 #75bc24, 100px 100px 0 #75bc24, 101px 101px 0 #75bc24, 102px 102px 0 #75bc24, 103px 103px 0 #75bc24, 104px 104px 0 #75bc24, 105px 105px 0 #75bc24, 106px 106px 0 #75bc24, 107px 107px 0 #75bc24, 108px 108px 0 #75bc24, 109px 109px 0 #75bc24, 110px 110px 0 #75bc24, 111px 111px 0 #75bc24, 1px 1px 0 rgba(125, 179, 0, 0.98), 2px 2px 0 rgba(125, 179, 0, 0.96), 3px 3px 0 rgba(125, 179, 0, 0.94), 4px 4px 0 rgba(125, 179, 0, 0.92), 5px 5px 0 rgba(125, 179, 0, 0.9), 6px 6px 0 rgba(125, 179, 0, 0.88), 7px 7px 0 rgba(125, 179, 0, 0.86), 8px 8px 0 rgba(125, 179, 0, 0.84), 9px 9px 0 rgba(125, 179, 0, 0.82), 10px 10px 0 rgba(125, 179, 0, 0.8), 11px 11px 0 rgba(125, 179, 0, 0.78), 12px 12px 0 rgba(125, 179, 0, 0.76), 13px 13px 0 rgba(125, 179, 0, 0.74), 14px 14px 0 rgba(125, 179, 0, 0.72), 15px 15px 0 rgba(125, 179, 0, 0.7), 16px 16px 0 rgba(125, 179, 0, 0.68), 17px 17px 0 rgba(125, 179, 0, 0.66), 18px 18px 0 rgba(125, 179, 0, 0.64), 19px 19px 0 rgba(125, 179, 0, 0.62), 20px 20px 0 rgba(125, 179, 0, 0.6), 21px 21px 0 rgba(125, 179, 0, 0.58), 22px 22px 0 rgba(125, 179, 0, 0.56), 23px 23px 0 rgba(125, 179, 0, 0.54), 24px 24px 0 rgba(125, 179, 0, 0.52), 25px 25px 0 rgba(125, 179, 0, 0.5), 26px 26px 0 rgba(125, 179, 0, 0.48), 27px 27px 0 rgba(125, 179, 0, 0.46), 28px 28px 0 rgba(125, 179, 0, 0.44), 29px 29px 0 rgba(125, 179, 0, 0.42), 30px 30px 0 rgba(125, 179, 0, 0.4), 31px 31px 0 rgba(125, 179, 0, 0.38), 32px 32px 0 rgba(125, 179, 0, 0.36), 33px 33px 0 rgba(125, 179, 0, 0.34), 34px 34px 0 rgba(125, 179, 0, 0.32), 35px 35px 0 rgba(125, 179, 0, 0.3), 36px 36px 0 rgba(125, 179, 0, 0.28), 37px 37px 0 rgba(125, 179, 0, 0.26), 38px 38px 0 rgba(125, 179, 0, 0.24), 39px 39px 0 rgba(125, 179, 0, 0.22), 40px 40px 0 rgba(125, 179, 0, 0.2), 41px 41px 0 rgba(125, 179, 0, 0.18), 42px 42px 0 rgba(125, 179, 0, 0.16), 43px 43px 0 rgba(125, 179, 0, 0.14), 44px 44px 0 rgba(125, 179, 0, 0.12), 45px 45px 0 rgba(125, 179, 0, 0.1), 46px 46px 0 rgba(125, 179, 0, 0.08), 47px 47px 0 rgba(125, 179, 0, 0.06), 48px 48px 0 rgba(125, 179, 0, 0.04), 50px 50px 0 rgba(125, 179, 0, 0);
 }
 .long-shadow-info {
   color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 0 #7ac4db, 1px 1px 0 #7ac4db, 2px 2px 0 #7ac4db, 3px 3px 0 #7ac4db, 4px 4px 0 #7ac4db, 5px 5px 0 #7ac4db, 6px 6px 0 #7ac4db, 7px 7px 0 #7ac4db, 8px 8px 0 #7ac4db, 9px 9px 0 #7ac4db, 10px 10px 0 #7ac4db, 11px 11px 0 #7ac4db, 12px 12px 0 #7ac4db, 13px 13px 0 #7ac4db, 14px 14px 0 #7ac4db, 15px 15px 0 #7ac4db, 16px 16px 0 #7ac4db, 17px 17px 0 #7ac4db, 18px 18px 0 #7ac4db, 19px 19px 0 #7ac4db, 20px 20px 0 #7ac4db, 21px 21px 0 #7ac4db, 22px 22px 0 #7ac4db, 23px 23px 0 #7ac4db, 24px 24px 0 #7ac4db, 25px 25px 0 #7ac4db, 26px 26px 0 #7ac4db, 27px 27px 0 #7ac4db, 28px 28px 0 #7ac4db, 29px 29px 0 #7ac4db, 30px 30px 0 #7ac4db, 31px 31px 0 #7ac4db, 32px 32px 0 #7ac4db, 33px 33px 0 #7ac4db, 34px 34px 0 #7ac4db, 35px 35px 0 #7ac4db, 36px 36px 0 #7ac4db, 37px 37px 0 #7ac4db, 38px 38px 0 #7ac4db, 39px 39px 0 #7ac4db, 40px 40px 0 #7ac4db, 41px 41px 0 #7ac4db, 42px 42px 0 #7ac4db, 43px 43px 0 #7ac4db, 44px 44px 0 #7ac4db, 45px 45px 0 #7ac4db, 46px 46px 0 #7ac4db, 47px 47px 0 #7ac4db, 48px 48px 0 #7ac4db, 49px 49px 0 #7ac4db, 50px 50px 0 #7ac4db, 51px 51px 0 #7ac4db, 52px 52px 0 #7ac4db, 53px 53px 0 #7ac4db, 54px 54px 0 #7ac4db, 55px 55px 0 #7ac4db, 56px 56px 0 #7ac4db, 57px 57px 0 #7ac4db, 58px 58px 0 #7ac4db, 59px 59px 0 #7ac4db, 60px 60px 0 #7ac4db, 61px 61px 0 #7ac4db, 62px 62px 0 #7ac4db, 63px 63px 0 #7ac4db, 64px 64px 0 #7ac4db, 65px 65px 0 #7ac4db, 66px 66px 0 #7ac4db, 67px 67px 0 #7ac4db, 68px 68px 0 #7ac4db, 69px 69px 0 #7ac4db, 70px 70px 0 #7ac4db, 71px 71px 0 #7ac4db, 71px 71px 0 #7ac4db, 72px 72px 0 #7ac4db, 73px 73px 0 #7ac4db, 74px 74px 0 #7ac4db, 75px 75px 0 #7ac4db, 76px 76px 0 #7ac4db, 77px 77px 0 #7ac4db, 78px 78px 0 #7ac4db, 79px 79px 0 #7ac4db, 80px 80px 0 #7ac4db, 81px 81px 0 #7ac4db, 82px 82px 0 #7ac4db, 83px 83px 0 #7ac4db, 84px 84px 0 #7ac4db, 85px 85px 0 #7ac4db, 86px 862px 0 #7ac4db, 87px 87px 0 #7ac4db, 88px 88px 0 #7ac4db, 89px 89px 0 #7ac4db, 90px 90px 0 #7ac4db, 91px 91px 0 #7ac4db, 92px 92px 0 #7ac4db, 93px 93px 0 #7ac4db, 94px 94px 0 #7ac4db, 95px 95px 0 #7ac4db, 96px 96px 0 #7ac4db, 97px 97px 0 #7ac4db, 98px 98px 0 #7ac4db, 99px 99px 0 #7ac4db, 100px 100px 0 #7ac4db, 101px 101px 0 #7ac4db, 102px 102px 0 #7ac4db, 103px 103px 0 #7ac4db, 104px 104px 0 #7ac4db, 105px 105px 0 #7ac4db, 106px 106px 0 #7ac4db, 107px 107px 0 #7ac4db, 108px 108px 0 #7ac4db, 109px 109px 0 #7ac4db, 110px 110px 0 #7ac4db, 111px 111px 0 #7ac4db, 1px 1px 0 rgba(91, 192, 222, 0.98), 2px 2px 0 rgba(91, 192, 222, 0.96), 3px 3px 0 rgba(91, 192, 222, 0.94), 4px 4px 0 rgba(91, 192, 222, 0.92), 5px 5px 0 rgba(91, 192, 222, 0.9), 6px 6px 0 rgba(91, 192, 222, 0.88), 7px 7px 0 rgba(91, 192, 222, 0.86), 8px 8px 0 rgba(91, 192, 222, 0.84), 9px 9px 0 rgba(91, 192, 222, 0.82), 10px 10px 0 rgba(91, 192, 222, 0.8), 11px 11px 0 rgba(91, 192, 222, 0.78), 12px 12px 0 rgba(91, 192, 222, 0.76), 13px 13px 0 rgba(91, 192, 222, 0.74), 14px 14px 0 rgba(91, 192, 222, 0.72), 15px 15px 0 rgba(91, 192, 222, 0.7), 16px 16px 0 rgba(91, 192, 222, 0.68), 17px 17px 0 rgba(91, 192, 222, 0.66), 18px 18px 0 rgba(91, 192, 222, 0.64), 19px 19px 0 rgba(91, 192, 222, 0.62), 20px 20px 0 rgba(91, 192, 222, 0.6), 21px 21px 0 rgba(91, 192, 222, 0.58), 22px 22px 0 rgba(91, 192, 222, 0.56), 23px 23px 0 rgba(91, 192, 222, 0.54), 24px 24px 0 rgba(91, 192, 222, 0.52), 25px 25px 0 rgba(91, 192, 222, 0.5), 26px 26px 0 rgba(91, 192, 222, 0.48), 27px 27px 0 rgba(91, 192, 222, 0.46), 28px 28px 0 rgba(91, 192, 222, 0.44), 29px 29px 0 rgba(91, 192, 222, 0.42), 30px 30px 0 rgba(91, 192, 222, 0.4), 31px 31px 0 rgba(91, 192, 222, 0.38), 32px 32px 0 rgba(91, 192, 222, 0.36), 33px 33px 0 rgba(91, 192, 222, 0.34), 34px 34px 0 rgba(91, 192, 222, 0.32), 35px 35px 0 rgba(91, 192, 222, 0.3), 36px 36px 0 rgba(91, 192, 222, 0.28), 37px 37px 0 rgba(91, 192, 222, 0.26), 38px 38px 0 rgba(91, 192, 222, 0.24), 39px 39px 0 rgba(91, 192, 222, 0.22), 40px 40px 0 rgba(91, 192, 222, 0.2), 41px 41px 0 rgba(91, 192, 222, 0.18), 42px 42px 0 rgba(91, 192, 222, 0.16), 43px 43px 0 rgba(91, 192, 222, 0.14), 44px 44px 0 rgba(91, 192, 222, 0.12), 45px 45px 0 rgba(91, 192, 222, 0.1), 46px 46px 0 rgba(91, 192, 222, 0.08), 47px 47px 0 rgba(91, 192, 222, 0.06), 48px 48px 0 rgba(91, 192, 222, 0.04), 50px 50px 0 rgba(91, 192, 222, 0);
+  text-shadow: 0px 0px 0 #59afd2, 1px 1px 0 #59afd2, 2px 2px 0 #59afd2, 3px 3px 0 #59afd2, 4px 4px 0 #59afd2, 5px 5px 0 #59afd2, 6px 6px 0 #59afd2, 7px 7px 0 #59afd2, 8px 8px 0 #59afd2, 9px 9px 0 #59afd2, 10px 10px 0 #59afd2, 11px 11px 0 #59afd2, 12px 12px 0 #59afd2, 13px 13px 0 #59afd2, 14px 14px 0 #59afd2, 15px 15px 0 #59afd2, 16px 16px 0 #59afd2, 17px 17px 0 #59afd2, 18px 18px 0 #59afd2, 19px 19px 0 #59afd2, 20px 20px 0 #59afd2, 21px 21px 0 #59afd2, 22px 22px 0 #59afd2, 23px 23px 0 #59afd2, 24px 24px 0 #59afd2, 25px 25px 0 #59afd2, 26px 26px 0 #59afd2, 27px 27px 0 #59afd2, 28px 28px 0 #59afd2, 29px 29px 0 #59afd2, 30px 30px 0 #59afd2, 31px 31px 0 #59afd2, 32px 32px 0 #59afd2, 33px 33px 0 #59afd2, 34px 34px 0 #59afd2, 35px 35px 0 #59afd2, 36px 36px 0 #59afd2, 37px 37px 0 #59afd2, 38px 38px 0 #59afd2, 39px 39px 0 #59afd2, 40px 40px 0 #59afd2, 41px 41px 0 #59afd2, 42px 42px 0 #59afd2, 43px 43px 0 #59afd2, 44px 44px 0 #59afd2, 45px 45px 0 #59afd2, 46px 46px 0 #59afd2, 47px 47px 0 #59afd2, 48px 48px 0 #59afd2, 49px 49px 0 #59afd2, 50px 50px 0 #59afd2, 51px 51px 0 #59afd2, 52px 52px 0 #59afd2, 53px 53px 0 #59afd2, 54px 54px 0 #59afd2, 55px 55px 0 #59afd2, 56px 56px 0 #59afd2, 57px 57px 0 #59afd2, 58px 58px 0 #59afd2, 59px 59px 0 #59afd2, 60px 60px 0 #59afd2, 61px 61px 0 #59afd2, 62px 62px 0 #59afd2, 63px 63px 0 #59afd2, 64px 64px 0 #59afd2, 65px 65px 0 #59afd2, 66px 66px 0 #59afd2, 67px 67px 0 #59afd2, 68px 68px 0 #59afd2, 69px 69px 0 #59afd2, 70px 70px 0 #59afd2, 71px 71px 0 #59afd2, 71px 71px 0 #59afd2, 72px 72px 0 #59afd2, 73px 73px 0 #59afd2, 74px 74px 0 #59afd2, 75px 75px 0 #59afd2, 76px 76px 0 #59afd2, 77px 77px 0 #59afd2, 78px 78px 0 #59afd2, 79px 79px 0 #59afd2, 80px 80px 0 #59afd2, 81px 81px 0 #59afd2, 82px 82px 0 #59afd2, 83px 83px 0 #59afd2, 84px 84px 0 #59afd2, 85px 85px 0 #59afd2, 86px 862px 0 #59afd2, 87px 87px 0 #59afd2, 88px 88px 0 #59afd2, 89px 89px 0 #59afd2, 90px 90px 0 #59afd2, 91px 91px 0 #59afd2, 92px 92px 0 #59afd2, 93px 93px 0 #59afd2, 94px 94px 0 #59afd2, 95px 95px 0 #59afd2, 96px 96px 0 #59afd2, 97px 97px 0 #59afd2, 98px 98px 0 #59afd2, 99px 99px 0 #59afd2, 100px 100px 0 #59afd2, 101px 101px 0 #59afd2, 102px 102px 0 #59afd2, 103px 103px 0 #59afd2, 104px 104px 0 #59afd2, 105px 105px 0 #59afd2, 106px 106px 0 #59afd2, 107px 107px 0 #59afd2, 108px 108px 0 #59afd2, 109px 109px 0 #59afd2, 110px 110px 0 #59afd2, 111px 111px 0 #59afd2, 1px 1px 0 rgba(91, 192, 222, 0.98), 2px 2px 0 rgba(91, 192, 222, 0.96), 3px 3px 0 rgba(91, 192, 222, 0.94), 4px 4px 0 rgba(91, 192, 222, 0.92), 5px 5px 0 rgba(91, 192, 222, 0.9), 6px 6px 0 rgba(91, 192, 222, 0.88), 7px 7px 0 rgba(91, 192, 222, 0.86), 8px 8px 0 rgba(91, 192, 222, 0.84), 9px 9px 0 rgba(91, 192, 222, 0.82), 10px 10px 0 rgba(91, 192, 222, 0.8), 11px 11px 0 rgba(91, 192, 222, 0.78), 12px 12px 0 rgba(91, 192, 222, 0.76), 13px 13px 0 rgba(91, 192, 222, 0.74), 14px 14px 0 rgba(91, 192, 222, 0.72), 15px 15px 0 rgba(91, 192, 222, 0.7), 16px 16px 0 rgba(91, 192, 222, 0.68), 17px 17px 0 rgba(91, 192, 222, 0.66), 18px 18px 0 rgba(91, 192, 222, 0.64), 19px 19px 0 rgba(91, 192, 222, 0.62), 20px 20px 0 rgba(91, 192, 222, 0.6), 21px 21px 0 rgba(91, 192, 222, 0.58), 22px 22px 0 rgba(91, 192, 222, 0.56), 23px 23px 0 rgba(91, 192, 222, 0.54), 24px 24px 0 rgba(91, 192, 222, 0.52), 25px 25px 0 rgba(91, 192, 222, 0.5), 26px 26px 0 rgba(91, 192, 222, 0.48), 27px 27px 0 rgba(91, 192, 222, 0.46), 28px 28px 0 rgba(91, 192, 222, 0.44), 29px 29px 0 rgba(91, 192, 222, 0.42), 30px 30px 0 rgba(91, 192, 222, 0.4), 31px 31px 0 rgba(91, 192, 222, 0.38), 32px 32px 0 rgba(91, 192, 222, 0.36), 33px 33px 0 rgba(91, 192, 222, 0.34), 34px 34px 0 rgba(91, 192, 222, 0.32), 35px 35px 0 rgba(91, 192, 222, 0.3), 36px 36px 0 rgba(91, 192, 222, 0.28), 37px 37px 0 rgba(91, 192, 222, 0.26), 38px 38px 0 rgba(91, 192, 222, 0.24), 39px 39px 0 rgba(91, 192, 222, 0.22), 40px 40px 0 rgba(91, 192, 222, 0.2), 41px 41px 0 rgba(91, 192, 222, 0.18), 42px 42px 0 rgba(91, 192, 222, 0.16), 43px 43px 0 rgba(91, 192, 222, 0.14), 44px 44px 0 rgba(91, 192, 222, 0.12), 45px 45px 0 rgba(91, 192, 222, 0.1), 46px 46px 0 rgba(91, 192, 222, 0.08), 47px 47px 0 rgba(91, 192, 222, 0.06), 48px 48px 0 rgba(91, 192, 222, 0.04), 50px 50px 0 rgba(91, 192, 222, 0);
 }
 .long-shadow-warning {
   color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 0 #ee5c0c, 1px 1px 0 #ee5c0c, 2px 2px 0 #ee5c0c, 3px 3px 0 #ee5c0c, 4px 4px 0 #ee5c0c, 5px 5px 0 #ee5c0c, 6px 6px 0 #ee5c0c, 7px 7px 0 #ee5c0c, 8px 8px 0 #ee5c0c, 9px 9px 0 #ee5c0c, 10px 10px 0 #ee5c0c, 11px 11px 0 #ee5c0c, 12px 12px 0 #ee5c0c, 13px 13px 0 #ee5c0c, 14px 14px 0 #ee5c0c, 15px 15px 0 #ee5c0c, 16px 16px 0 #ee5c0c, 17px 17px 0 #ee5c0c, 18px 18px 0 #ee5c0c, 19px 19px 0 #ee5c0c, 20px 20px 0 #ee5c0c, 21px 21px 0 #ee5c0c, 22px 22px 0 #ee5c0c, 23px 23px 0 #ee5c0c, 24px 24px 0 #ee5c0c, 25px 25px 0 #ee5c0c, 26px 26px 0 #ee5c0c, 27px 27px 0 #ee5c0c, 28px 28px 0 #ee5c0c, 29px 29px 0 #ee5c0c, 30px 30px 0 #ee5c0c, 31px 31px 0 #ee5c0c, 32px 32px 0 #ee5c0c, 33px 33px 0 #ee5c0c, 34px 34px 0 #ee5c0c, 35px 35px 0 #ee5c0c, 36px 36px 0 #ee5c0c, 37px 37px 0 #ee5c0c, 38px 38px 0 #ee5c0c, 39px 39px 0 #ee5c0c, 40px 40px 0 #ee5c0c, 41px 41px 0 #ee5c0c, 42px 42px 0 #ee5c0c, 43px 43px 0 #ee5c0c, 44px 44px 0 #ee5c0c, 45px 45px 0 #ee5c0c, 46px 46px 0 #ee5c0c, 47px 47px 0 #ee5c0c, 48px 48px 0 #ee5c0c, 49px 49px 0 #ee5c0c, 50px 50px 0 #ee5c0c, 51px 51px 0 #ee5c0c, 52px 52px 0 #ee5c0c, 53px 53px 0 #ee5c0c, 54px 54px 0 #ee5c0c, 55px 55px 0 #ee5c0c, 56px 56px 0 #ee5c0c, 57px 57px 0 #ee5c0c, 58px 58px 0 #ee5c0c, 59px 59px 0 #ee5c0c, 60px 60px 0 #ee5c0c, 61px 61px 0 #ee5c0c, 62px 62px 0 #ee5c0c, 63px 63px 0 #ee5c0c, 64px 64px 0 #ee5c0c, 65px 65px 0 #ee5c0c, 66px 66px 0 #ee5c0c, 67px 67px 0 #ee5c0c, 68px 68px 0 #ee5c0c, 69px 69px 0 #ee5c0c, 70px 70px 0 #ee5c0c, 71px 71px 0 #ee5c0c, 71px 71px 0 #ee5c0c, 72px 72px 0 #ee5c0c, 73px 73px 0 #ee5c0c, 74px 74px 0 #ee5c0c, 75px 75px 0 #ee5c0c, 76px 76px 0 #ee5c0c, 77px 77px 0 #ee5c0c, 78px 78px 0 #ee5c0c, 79px 79px 0 #ee5c0c, 80px 80px 0 #ee5c0c, 81px 81px 0 #ee5c0c, 82px 82px 0 #ee5c0c, 83px 83px 0 #ee5c0c, 84px 84px 0 #ee5c0c, 85px 85px 0 #ee5c0c, 86px 862px 0 #ee5c0c, 87px 87px 0 #ee5c0c, 88px 88px 0 #ee5c0c, 89px 89px 0 #ee5c0c, 90px 90px 0 #ee5c0c, 91px 91px 0 #ee5c0c, 92px 92px 0 #ee5c0c, 93px 93px 0 #ee5c0c, 94px 94px 0 #ee5c0c, 95px 95px 0 #ee5c0c, 96px 96px 0 #ee5c0c, 97px 97px 0 #ee5c0c, 98px 98px 0 #ee5c0c, 99px 99px 0 #ee5c0c, 100px 100px 0 #ee5c0c, 101px 101px 0 #ee5c0c, 102px 102px 0 #ee5c0c, 103px 103px 0 #ee5c0c, 104px 104px 0 #ee5c0c, 105px 105px 0 #ee5c0c, 106px 106px 0 #ee5c0c, 107px 107px 0 #ee5c0c, 108px 108px 0 #ee5c0c, 109px 109px 0 #ee5c0c, 110px 110px 0 #ee5c0c, 111px 111px 0 #ee5c0c, 1px 1px 0 rgba(236, 153, 36, 0.98), 2px 2px 0 rgba(236, 153, 36, 0.96), 3px 3px 0 rgba(236, 153, 36, 0.94), 4px 4px 0 rgba(236, 153, 36, 0.92), 5px 5px 0 rgba(236, 153, 36, 0.9), 6px 6px 0 rgba(236, 153, 36, 0.88), 7px 7px 0 rgba(236, 153, 36, 0.86), 8px 8px 0 rgba(236, 153, 36, 0.84), 9px 9px 0 rgba(236, 153, 36, 0.82), 10px 10px 0 rgba(236, 153, 36, 0.8), 11px 11px 0 rgba(236, 153, 36, 0.78), 12px 12px 0 rgba(236, 153, 36, 0.76), 13px 13px 0 rgba(236, 153, 36, 0.74), 14px 14px 0 rgba(236, 153, 36, 0.72), 15px 15px 0 rgba(236, 153, 36, 0.7), 16px 16px 0 rgba(236, 153, 36, 0.68), 17px 17px 0 rgba(236, 153, 36, 0.66), 18px 18px 0 rgba(236, 153, 36, 0.64), 19px 19px 0 rgba(236, 153, 36, 0.62), 20px 20px 0 rgba(236, 153, 36, 0.6), 21px 21px 0 rgba(236, 153, 36, 0.58), 22px 22px 0 rgba(236, 153, 36, 0.56), 23px 23px 0 rgba(236, 153, 36, 0.54), 24px 24px 0 rgba(236, 153, 36, 0.52), 25px 25px 0 rgba(236, 153, 36, 0.5), 26px 26px 0 rgba(236, 153, 36, 0.48), 27px 27px 0 rgba(236, 153, 36, 0.46), 28px 28px 0 rgba(236, 153, 36, 0.44), 29px 29px 0 rgba(236, 153, 36, 0.42), 30px 30px 0 rgba(236, 153, 36, 0.4), 31px 31px 0 rgba(236, 153, 36, 0.38), 32px 32px 0 rgba(236, 153, 36, 0.36), 33px 33px 0 rgba(236, 153, 36, 0.34), 34px 34px 0 rgba(236, 153, 36, 0.32), 35px 35px 0 rgba(236, 153, 36, 0.3), 36px 36px 0 rgba(236, 153, 36, 0.28), 37px 37px 0 rgba(236, 153, 36, 0.26), 38px 38px 0 rgba(236, 153, 36, 0.24), 39px 39px 0 rgba(236, 153, 36, 0.22), 40px 40px 0 rgba(236, 153, 36, 0.2), 41px 41px 0 rgba(236, 153, 36, 0.18), 42px 42px 0 rgba(236, 153, 36, 0.16), 43px 43px 0 rgba(236, 153, 36, 0.14), 44px 44px 0 rgba(236, 153, 36, 0.12), 45px 45px 0 rgba(236, 153, 36, 0.1), 46px 46px 0 rgba(236, 153, 36, 0.08), 47px 47px 0 rgba(236, 153, 36, 0.06), 48px 48px 0 rgba(236, 153, 36, 0.04), 50px 50px 0 rgba(236, 153, 36, 0);
+  text-shadow: 0px 0px 0 #d16200, 1px 1px 0 #d16200, 2px 2px 0 #d16200, 3px 3px 0 #d16200, 4px 4px 0 #d16200, 5px 5px 0 #d16200, 6px 6px 0 #d16200, 7px 7px 0 #d16200, 8px 8px 0 #d16200, 9px 9px 0 #d16200, 10px 10px 0 #d16200, 11px 11px 0 #d16200, 12px 12px 0 #d16200, 13px 13px 0 #d16200, 14px 14px 0 #d16200, 15px 15px 0 #d16200, 16px 16px 0 #d16200, 17px 17px 0 #d16200, 18px 18px 0 #d16200, 19px 19px 0 #d16200, 20px 20px 0 #d16200, 21px 21px 0 #d16200, 22px 22px 0 #d16200, 23px 23px 0 #d16200, 24px 24px 0 #d16200, 25px 25px 0 #d16200, 26px 26px 0 #d16200, 27px 27px 0 #d16200, 28px 28px 0 #d16200, 29px 29px 0 #d16200, 30px 30px 0 #d16200, 31px 31px 0 #d16200, 32px 32px 0 #d16200, 33px 33px 0 #d16200, 34px 34px 0 #d16200, 35px 35px 0 #d16200, 36px 36px 0 #d16200, 37px 37px 0 #d16200, 38px 38px 0 #d16200, 39px 39px 0 #d16200, 40px 40px 0 #d16200, 41px 41px 0 #d16200, 42px 42px 0 #d16200, 43px 43px 0 #d16200, 44px 44px 0 #d16200, 45px 45px 0 #d16200, 46px 46px 0 #d16200, 47px 47px 0 #d16200, 48px 48px 0 #d16200, 49px 49px 0 #d16200, 50px 50px 0 #d16200, 51px 51px 0 #d16200, 52px 52px 0 #d16200, 53px 53px 0 #d16200, 54px 54px 0 #d16200, 55px 55px 0 #d16200, 56px 56px 0 #d16200, 57px 57px 0 #d16200, 58px 58px 0 #d16200, 59px 59px 0 #d16200, 60px 60px 0 #d16200, 61px 61px 0 #d16200, 62px 62px 0 #d16200, 63px 63px 0 #d16200, 64px 64px 0 #d16200, 65px 65px 0 #d16200, 66px 66px 0 #d16200, 67px 67px 0 #d16200, 68px 68px 0 #d16200, 69px 69px 0 #d16200, 70px 70px 0 #d16200, 71px 71px 0 #d16200, 71px 71px 0 #d16200, 72px 72px 0 #d16200, 73px 73px 0 #d16200, 74px 74px 0 #d16200, 75px 75px 0 #d16200, 76px 76px 0 #d16200, 77px 77px 0 #d16200, 78px 78px 0 #d16200, 79px 79px 0 #d16200, 80px 80px 0 #d16200, 81px 81px 0 #d16200, 82px 82px 0 #d16200, 83px 83px 0 #d16200, 84px 84px 0 #d16200, 85px 85px 0 #d16200, 86px 862px 0 #d16200, 87px 87px 0 #d16200, 88px 88px 0 #d16200, 89px 89px 0 #d16200, 90px 90px 0 #d16200, 91px 91px 0 #d16200, 92px 92px 0 #d16200, 93px 93px 0 #d16200, 94px 94px 0 #d16200, 95px 95px 0 #d16200, 96px 96px 0 #d16200, 97px 97px 0 #d16200, 98px 98px 0 #d16200, 99px 99px 0 #d16200, 100px 100px 0 #d16200, 101px 101px 0 #d16200, 102px 102px 0 #d16200, 103px 103px 0 #d16200, 104px 104px 0 #d16200, 105px 105px 0 #d16200, 106px 106px 0 #d16200, 107px 107px 0 #d16200, 108px 108px 0 #d16200, 109px 109px 0 #d16200, 110px 110px 0 #d16200, 111px 111px 0 #d16200, 1px 1px 0 rgba(236, 153, 36, 0.98), 2px 2px 0 rgba(236, 153, 36, 0.96), 3px 3px 0 rgba(236, 153, 36, 0.94), 4px 4px 0 rgba(236, 153, 36, 0.92), 5px 5px 0 rgba(236, 153, 36, 0.9), 6px 6px 0 rgba(236, 153, 36, 0.88), 7px 7px 0 rgba(236, 153, 36, 0.86), 8px 8px 0 rgba(236, 153, 36, 0.84), 9px 9px 0 rgba(236, 153, 36, 0.82), 10px 10px 0 rgba(236, 153, 36, 0.8), 11px 11px 0 rgba(236, 153, 36, 0.78), 12px 12px 0 rgba(236, 153, 36, 0.76), 13px 13px 0 rgba(236, 153, 36, 0.74), 14px 14px 0 rgba(236, 153, 36, 0.72), 15px 15px 0 rgba(236, 153, 36, 0.7), 16px 16px 0 rgba(236, 153, 36, 0.68), 17px 17px 0 rgba(236, 153, 36, 0.66), 18px 18px 0 rgba(236, 153, 36, 0.64), 19px 19px 0 rgba(236, 153, 36, 0.62), 20px 20px 0 rgba(236, 153, 36, 0.6), 21px 21px 0 rgba(236, 153, 36, 0.58), 22px 22px 0 rgba(236, 153, 36, 0.56), 23px 23px 0 rgba(236, 153, 36, 0.54), 24px 24px 0 rgba(236, 153, 36, 0.52), 25px 25px 0 rgba(236, 153, 36, 0.5), 26px 26px 0 rgba(236, 153, 36, 0.48), 27px 27px 0 rgba(236, 153, 36, 0.46), 28px 28px 0 rgba(236, 153, 36, 0.44), 29px 29px 0 rgba(236, 153, 36, 0.42), 30px 30px 0 rgba(236, 153, 36, 0.4), 31px 31px 0 rgba(236, 153, 36, 0.38), 32px 32px 0 rgba(236, 153, 36, 0.36), 33px 33px 0 rgba(236, 153, 36, 0.34), 34px 34px 0 rgba(236, 153, 36, 0.32), 35px 35px 0 rgba(236, 153, 36, 0.3), 36px 36px 0 rgba(236, 153, 36, 0.28), 37px 37px 0 rgba(236, 153, 36, 0.26), 38px 38px 0 rgba(236, 153, 36, 0.24), 39px 39px 0 rgba(236, 153, 36, 0.22), 40px 40px 0 rgba(236, 153, 36, 0.2), 41px 41px 0 rgba(236, 153, 36, 0.18), 42px 42px 0 rgba(236, 153, 36, 0.16), 43px 43px 0 rgba(236, 153, 36, 0.14), 44px 44px 0 rgba(236, 153, 36, 0.12), 45px 45px 0 rgba(236, 153, 36, 0.1), 46px 46px 0 rgba(236, 153, 36, 0.08), 47px 47px 0 rgba(236, 153, 36, 0.06), 48px 48px 0 rgba(236, 153, 36, 0.04), 50px 50px 0 rgba(236, 153, 36, 0);
 }
 .long-shadow-danger {
   color: #fff;
   font-weight: bold;
-  text-shadow: 0px 0px 0 #d5433e, 1px 1px 0 #d5433e, 2px 2px 0 #d5433e, 3px 3px 0 #d5433e, 4px 4px 0 #d5433e, 5px 5px 0 #d5433e, 6px 6px 0 #d5433e, 7px 7px 0 #d5433e, 8px 8px 0 #d5433e, 9px 9px 0 #d5433e, 10px 10px 0 #d5433e, 11px 11px 0 #d5433e, 12px 12px 0 #d5433e, 13px 13px 0 #d5433e, 14px 14px 0 #d5433e, 15px 15px 0 #d5433e, 16px 16px 0 #d5433e, 17px 17px 0 #d5433e, 18px 18px 0 #d5433e, 19px 19px 0 #d5433e, 20px 20px 0 #d5433e, 21px 21px 0 #d5433e, 22px 22px 0 #d5433e, 23px 23px 0 #d5433e, 24px 24px 0 #d5433e, 25px 25px 0 #d5433e, 26px 26px 0 #d5433e, 27px 27px 0 #d5433e, 28px 28px 0 #d5433e, 29px 29px 0 #d5433e, 30px 30px 0 #d5433e, 31px 31px 0 #d5433e, 32px 32px 0 #d5433e, 33px 33px 0 #d5433e, 34px 34px 0 #d5433e, 35px 35px 0 #d5433e, 36px 36px 0 #d5433e, 37px 37px 0 #d5433e, 38px 38px 0 #d5433e, 39px 39px 0 #d5433e, 40px 40px 0 #d5433e, 41px 41px 0 #d5433e, 42px 42px 0 #d5433e, 43px 43px 0 #d5433e, 44px 44px 0 #d5433e, 45px 45px 0 #d5433e, 46px 46px 0 #d5433e, 47px 47px 0 #d5433e, 48px 48px 0 #d5433e, 49px 49px 0 #d5433e, 50px 50px 0 #d5433e, 51px 51px 0 #d5433e, 52px 52px 0 #d5433e, 53px 53px 0 #d5433e, 54px 54px 0 #d5433e, 55px 55px 0 #d5433e, 56px 56px 0 #d5433e, 57px 57px 0 #d5433e, 58px 58px 0 #d5433e, 59px 59px 0 #d5433e, 60px 60px 0 #d5433e, 61px 61px 0 #d5433e, 62px 62px 0 #d5433e, 63px 63px 0 #d5433e, 64px 64px 0 #d5433e, 65px 65px 0 #d5433e, 66px 66px 0 #d5433e, 67px 67px 0 #d5433e, 68px 68px 0 #d5433e, 69px 69px 0 #d5433e, 70px 70px 0 #d5433e, 71px 71px 0 #d5433e, 71px 71px 0 #d5433e, 72px 72px 0 #d5433e, 73px 73px 0 #d5433e, 74px 74px 0 #d5433e, 75px 75px 0 #d5433e, 76px 76px 0 #d5433e, 77px 77px 0 #d5433e, 78px 78px 0 #d5433e, 79px 79px 0 #d5433e, 80px 80px 0 #d5433e, 81px 81px 0 #d5433e, 82px 82px 0 #d5433e, 83px 83px 0 #d5433e, 84px 84px 0 #d5433e, 85px 85px 0 #d5433e, 86px 862px 0 #d5433e, 87px 87px 0 #d5433e, 88px 88px 0 #d5433e, 89px 89px 0 #d5433e, 90px 90px 0 #d5433e, 91px 91px 0 #d5433e, 92px 92px 0 #d5433e, 93px 93px 0 #d5433e, 94px 94px 0 #d5433e, 95px 95px 0 #d5433e, 96px 96px 0 #d5433e, 97px 97px 0 #d5433e, 98px 98px 0 #d5433e, 99px 99px 0 #d5433e, 100px 100px 0 #d5433e, 101px 101px 0 #d5433e, 102px 102px 0 #d5433e, 103px 103px 0 #d5433e, 104px 104px 0 #d5433e, 105px 105px 0 #d5433e, 106px 106px 0 #d5433e, 107px 107px 0 #d5433e, 108px 108px 0 #d5433e, 109px 109px 0 #d5433e, 110px 110px 0 #d5433e, 111px 111px 0 #d5433e, 1px 1px 0 rgba(211, 54, 50, 0.98), 2px 2px 0 rgba(211, 54, 50, 0.96), 3px 3px 0 rgba(211, 54, 50, 0.94), 4px 4px 0 rgba(211, 54, 50, 0.92), 5px 5px 0 rgba(211, 54, 50, 0.9), 6px 6px 0 rgba(211, 54, 50, 0.88), 7px 7px 0 rgba(211, 54, 50, 0.86), 8px 8px 0 rgba(211, 54, 50, 0.84), 9px 9px 0 rgba(211, 54, 50, 0.82), 10px 10px 0 rgba(211, 54, 50, 0.8), 11px 11px 0 rgba(211, 54, 50, 0.78), 12px 12px 0 rgba(211, 54, 50, 0.76), 13px 13px 0 rgba(211, 54, 50, 0.74), 14px 14px 0 rgba(211, 54, 50, 0.72), 15px 15px 0 rgba(211, 54, 50, 0.7), 16px 16px 0 rgba(211, 54, 50, 0.68), 17px 17px 0 rgba(211, 54, 50, 0.66), 18px 18px 0 rgba(211, 54, 50, 0.64), 19px 19px 0 rgba(211, 54, 50, 0.62), 20px 20px 0 rgba(211, 54, 50, 0.6), 21px 21px 0 rgba(211, 54, 50, 0.58), 22px 22px 0 rgba(211, 54, 50, 0.56), 23px 23px 0 rgba(211, 54, 50, 0.54), 24px 24px 0 rgba(211, 54, 50, 0.52), 25px 25px 0 rgba(211, 54, 50, 0.5), 26px 26px 0 rgba(211, 54, 50, 0.48), 27px 27px 0 rgba(211, 54, 50, 0.46), 28px 28px 0 rgba(211, 54, 50, 0.44), 29px 29px 0 rgba(211, 54, 50, 0.42), 30px 30px 0 rgba(211, 54, 50, 0.4), 31px 31px 0 rgba(211, 54, 50, 0.38), 32px 32px 0 rgba(211, 54, 50, 0.36), 33px 33px 0 rgba(211, 54, 50, 0.34), 34px 34px 0 rgba(211, 54, 50, 0.32), 35px 35px 0 rgba(211, 54, 50, 0.3), 36px 36px 0 rgba(211, 54, 50, 0.28), 37px 37px 0 rgba(211, 54, 50, 0.26), 38px 38px 0 rgba(211, 54, 50, 0.24), 39px 39px 0 rgba(211, 54, 50, 0.22), 40px 40px 0 rgba(211, 54, 50, 0.2), 41px 41px 0 rgba(211, 54, 50, 0.18), 42px 42px 0 rgba(211, 54, 50, 0.16), 43px 43px 0 rgba(211, 54, 50, 0.14), 44px 44px 0 rgba(211, 54, 50, 0.12), 45px 45px 0 rgba(211, 54, 50, 0.1), 46px 46px 0 rgba(211, 54, 50, 0.08), 47px 47px 0 rgba(211, 54, 50, 0.06), 48px 48px 0 rgba(211, 54, 50, 0.04), 50px 50px 0 rgba(211, 54, 50, 0);
+  text-shadow: 0px 0px 0 #d33632, 1px 1px 0 #d33632, 2px 2px 0 #d33632, 3px 3px 0 #d33632, 4px 4px 0 #d33632, 5px 5px 0 #d33632, 6px 6px 0 #d33632, 7px 7px 0 #d33632, 8px 8px 0 #d33632, 9px 9px 0 #d33632, 10px 10px 0 #d33632, 11px 11px 0 #d33632, 12px 12px 0 #d33632, 13px 13px 0 #d33632, 14px 14px 0 #d33632, 15px 15px 0 #d33632, 16px 16px 0 #d33632, 17px 17px 0 #d33632, 18px 18px 0 #d33632, 19px 19px 0 #d33632, 20px 20px 0 #d33632, 21px 21px 0 #d33632, 22px 22px 0 #d33632, 23px 23px 0 #d33632, 24px 24px 0 #d33632, 25px 25px 0 #d33632, 26px 26px 0 #d33632, 27px 27px 0 #d33632, 28px 28px 0 #d33632, 29px 29px 0 #d33632, 30px 30px 0 #d33632, 31px 31px 0 #d33632, 32px 32px 0 #d33632, 33px 33px 0 #d33632, 34px 34px 0 #d33632, 35px 35px 0 #d33632, 36px 36px 0 #d33632, 37px 37px 0 #d33632, 38px 38px 0 #d33632, 39px 39px 0 #d33632, 40px 40px 0 #d33632, 41px 41px 0 #d33632, 42px 42px 0 #d33632, 43px 43px 0 #d33632, 44px 44px 0 #d33632, 45px 45px 0 #d33632, 46px 46px 0 #d33632, 47px 47px 0 #d33632, 48px 48px 0 #d33632, 49px 49px 0 #d33632, 50px 50px 0 #d33632, 51px 51px 0 #d33632, 52px 52px 0 #d33632, 53px 53px 0 #d33632, 54px 54px 0 #d33632, 55px 55px 0 #d33632, 56px 56px 0 #d33632, 57px 57px 0 #d33632, 58px 58px 0 #d33632, 59px 59px 0 #d33632, 60px 60px 0 #d33632, 61px 61px 0 #d33632, 62px 62px 0 #d33632, 63px 63px 0 #d33632, 64px 64px 0 #d33632, 65px 65px 0 #d33632, 66px 66px 0 #d33632, 67px 67px 0 #d33632, 68px 68px 0 #d33632, 69px 69px 0 #d33632, 70px 70px 0 #d33632, 71px 71px 0 #d33632, 71px 71px 0 #d33632, 72px 72px 0 #d33632, 73px 73px 0 #d33632, 74px 74px 0 #d33632, 75px 75px 0 #d33632, 76px 76px 0 #d33632, 77px 77px 0 #d33632, 78px 78px 0 #d33632, 79px 79px 0 #d33632, 80px 80px 0 #d33632, 81px 81px 0 #d33632, 82px 82px 0 #d33632, 83px 83px 0 #d33632, 84px 84px 0 #d33632, 85px 85px 0 #d33632, 86px 862px 0 #d33632, 87px 87px 0 #d33632, 88px 88px 0 #d33632, 89px 89px 0 #d33632, 90px 90px 0 #d33632, 91px 91px 0 #d33632, 92px 92px 0 #d33632, 93px 93px 0 #d33632, 94px 94px 0 #d33632, 95px 95px 0 #d33632, 96px 96px 0 #d33632, 97px 97px 0 #d33632, 98px 98px 0 #d33632, 99px 99px 0 #d33632, 100px 100px 0 #d33632, 101px 101px 0 #d33632, 102px 102px 0 #d33632, 103px 103px 0 #d33632, 104px 104px 0 #d33632, 105px 105px 0 #d33632, 106px 106px 0 #d33632, 107px 107px 0 #d33632, 108px 108px 0 #d33632, 109px 109px 0 #d33632, 110px 110px 0 #d33632, 111px 111px 0 #d33632, 1px 1px 0 rgba(211, 54, 50, 0.98), 2px 2px 0 rgba(211, 54, 50, 0.96), 3px 3px 0 rgba(211, 54, 50, 0.94), 4px 4px 0 rgba(211, 54, 50, 0.92), 5px 5px 0 rgba(211, 54, 50, 0.9), 6px 6px 0 rgba(211, 54, 50, 0.88), 7px 7px 0 rgba(211, 54, 50, 0.86), 8px 8px 0 rgba(211, 54, 50, 0.84), 9px 9px 0 rgba(211, 54, 50, 0.82), 10px 10px 0 rgba(211, 54, 50, 0.8), 11px 11px 0 rgba(211, 54, 50, 0.78), 12px 12px 0 rgba(211, 54, 50, 0.76), 13px 13px 0 rgba(211, 54, 50, 0.74), 14px 14px 0 rgba(211, 54, 50, 0.72), 15px 15px 0 rgba(211, 54, 50, 0.7), 16px 16px 0 rgba(211, 54, 50, 0.68), 17px 17px 0 rgba(211, 54, 50, 0.66), 18px 18px 0 rgba(211, 54, 50, 0.64), 19px 19px 0 rgba(211, 54, 50, 0.62), 20px 20px 0 rgba(211, 54, 50, 0.6), 21px 21px 0 rgba(211, 54, 50, 0.58), 22px 22px 0 rgba(211, 54, 50, 0.56), 23px 23px 0 rgba(211, 54, 50, 0.54), 24px 24px 0 rgba(211, 54, 50, 0.52), 25px 25px 0 rgba(211, 54, 50, 0.5), 26px 26px 0 rgba(211, 54, 50, 0.48), 27px 27px 0 rgba(211, 54, 50, 0.46), 28px 28px 0 rgba(211, 54, 50, 0.44), 29px 29px 0 rgba(211, 54, 50, 0.42), 30px 30px 0 rgba(211, 54, 50, 0.4), 31px 31px 0 rgba(211, 54, 50, 0.38), 32px 32px 0 rgba(211, 54, 50, 0.36), 33px 33px 0 rgba(211, 54, 50, 0.34), 34px 34px 0 rgba(211, 54, 50, 0.32), 35px 35px 0 rgba(211, 54, 50, 0.3), 36px 36px 0 rgba(211, 54, 50, 0.28), 37px 37px 0 rgba(211, 54, 50, 0.26), 38px 38px 0 rgba(211, 54, 50, 0.24), 39px 39px 0 rgba(211, 54, 50, 0.22), 40px 40px 0 rgba(211, 54, 50, 0.2), 41px 41px 0 rgba(211, 54, 50, 0.18), 42px 42px 0 rgba(211, 54, 50, 0.16), 43px 43px 0 rgba(211, 54, 50, 0.14), 44px 44px 0 rgba(211, 54, 50, 0.12), 45px 45px 0 rgba(211, 54, 50, 0.1), 46px 46px 0 rgba(211, 54, 50, 0.08), 47px 47px 0 rgba(211, 54, 50, 0.06), 48px 48px 0 rgba(211, 54, 50, 0.04), 50px 50px 0 rgba(211, 54, 50, 0);
 }
 .push {
   margin: 20px;
@@ -6277,21 +6277,21 @@ fieldset[disabled] .btn-default.active.active {
   margin-right: 0;
 }
 .pagination-inverse {
-  border-color: #070606;
+  border-color: #222222;
 }
 .pagination-inverse > li > a,
 .pagination-inverse > li > span {
   color: rgba(255, 255, 255, 0.4);
-  background-color: #231d1f;
-  border-color: #070606;
+  background-color: #3b3b3b;
+  border-color: #222222;
 }
 .pagination-inverse > li > a:hover,
 .pagination-inverse > li > span:hover,
 .pagination-inverse > li > a:focus,
 .pagination-inverse > li > span:focus {
   color: #eeeeee;
-  background-color: #2b2426;
-  border-color: #070606;
+  background-color: #434343;
+  border-color: #222222;
 }
 .pagination-inverse > .active > a,
 .pagination-inverse > .active > span,
@@ -6300,8 +6300,8 @@ fieldset[disabled] .btn-default.active.active {
 .pagination-inverse > .active > a:focus,
 .pagination-inverse > .active > span:focus {
   color: #eeeeee;
-  background-color: #342b2e;
-  border-color: #070606;
+  background-color: #4a4a4a;
+  border-color: #222222;
 }
 .pagination-inverse > .disabled > span,
 .pagination-inverse > .disabled > span:hover,
@@ -6310,8 +6310,8 @@ fieldset[disabled] .btn-default.active.active {
 .pagination-inverse > .disabled > a:hover,
 .pagination-inverse > .disabled > a:focus {
   color: #555555;
-  background-color: #261f21;
-  border-color: #070606;
+  background-color: #3e3e3e;
+  border-color: #222222;
 }
 .pad {
   padding: 20px;
@@ -6434,26 +6434,26 @@ fieldset[disabled] .btn-default.active.active {
   padding-left: 0px;
 }
 .list-group-inverse .list-group-item {
-  border: 1px solid #070606;
+  border: 1px solid #222222;
 }
 .list-group-inverse.list-group-striped > .list-group-item:nth-of-type(odd) {
-  background-color: #31292b;
+  background-color: #484848;
 }
 .list-group-inverse.list-group-striped > .list-group-item-success:nth-of-type(odd) {
-  background-color: #5e9932;
+  background-color: #629e1e;
 }
 .list-group-inverse.list-group-striped > .list-group-item-danger:nth-of-type(odd) {
   background-color: #d9534f;
 }
 .list-group-inverse.list-group-striped > .list-group-item-warning:nth-of-type(odd) {
-  background-color: #f4712a;
+  background-color: #f57300;
 }
 .list-group-inverse.list-group-striped > .list-group-item-info:nth-of-type(odd) {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .list-group-item-inverse {
   color: #eeeeee;
-  background-color: #3f3438;
+  background-color: #555555;
 }
 a.list-group-item-inverse {
   color: #eeeeee;
@@ -6464,7 +6464,7 @@ a.list-group-item-inverse .list-group-item-heading {
 a.list-group-item-inverse:hover,
 a.list-group-item-inverse:focus {
   color: #eeeeee;
-  background-color: #31292b;
+  background-color: #484848;
 }
 a.list-group-item-inverse.active,
 a.list-group-item-inverse.active:hover,
@@ -6515,9 +6515,9 @@ a.list-group-item-inverse.active:focus {
   border-top-right-radius: 30px;
 }
 .form-control-inverse {
-  color: #a8979d;
-  background-color: #1b1618;
-  border-color: #070606;
+  color: #bbbbbb;
+  background-color: #333333;
+  border-color: #222222;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -6534,7 +6534,7 @@ a.list-group-item-inverse.active:focus {
 .form-control-inverse[disabled],
 .form-control-inverse[readonly],
 fieldset[disabled] .form-control-inverse {
-  background-color: #201b1d;
+  background-color: #383838;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {
@@ -6600,21 +6600,21 @@ fieldset[disabled] .form-control-inverse {
   animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #5e9932;
+  background-color: #629e1e;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #4295c2;
+  background-color: #51abd0;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f4712a;
+  background-color: #f57300;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6628,28 +6628,28 @@ fieldset[disabled] .form-control-inverse {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-inverse {
-  background-color: #231d1f;
+  background-color: #3b3b3b;
 }
 .progress-striped .progress-bar-inverse {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-success-light {
-  background-color: #83c651;
+  background-color: #89d831;
 }
 .progress-striped .progress-bar-success-light {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info-light {
-  background-color: #7cb5d5;
+  background-color: #8dc8e0;
 }
 .progress-striped .progress-bar-info-light {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning-light {
-  background-color: #f8a173;
+  background-color: #ff9b42;
 }
 .progress-striped .progress-bar-warning-light {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6663,51 +6663,51 @@ fieldset[disabled] .form-control-inverse {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-inverse-light {
-  background-color: #4d4044;
+  background-color: #616161;
 }
 .progress-striped .progress-bar-inverse-light {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-success {
-  color: #5e9932;
-  border: 1px solid #5e9932;
+  color: #629e1e;
+  border: 1px solid #629e1e;
 }
 .progress-info {
-  color: #4295c2;
-  border: 1px solid #4295c2;
+  color: #51abd0;
+  border: 1px solid #51abd0;
 }
 .progress-warning {
-  color: #f4712a;
-  border: 1px solid #f4712a;
+  color: #f57300;
+  border: 1px solid #f57300;
 }
 .progress-danger {
   color: #d9534f;
   border: 1px solid #d9534f;
 }
 .progress-inverse {
-  color: #231d1f;
-  border: 1px solid #231d1f;
+  color: #3b3b3b;
+  border: 1px solid #3b3b3b;
 }
 .progress-success-light {
-  color: #83c651;
-  border: 1px solid #83c651;
+  color: #89d831;
+  border: 1px solid #89d831;
 }
 .progress-info-light {
-  color: #7cb5d5;
-  border: 1px solid #7cb5d5;
+  color: #8dc8e0;
+  border: 1px solid #8dc8e0;
 }
 .progress-warning-light {
-  color: #f8a173;
-  border: 1px solid #f8a173;
+  color: #ff9b42;
+  border: 1px solid #ff9b42;
 }
 .progress-danger-light {
   color: #f26c63;
   border: 1px solid #f26c63;
 }
 .progress-inverse-light {
-  color: #4d4044;
-  border: 1px solid #4d4044;
+  color: #616161;
+  border: 1px solid #616161;
 }
 .pull {
   margin: -20px;
@@ -6838,38 +6838,38 @@ fieldset[disabled] .form-control-inverse {
   color: rgba(255, 255, 255, 0.9);
 }
 .panel-inverse {
-  border-color: #231d1f;
-  background-color: #3f3438;
+  border-color: #3b3b3b;
+  background-color: #555555;
 }
 .panel-inverse > .panel-heading {
   color: #ffffff;
-  background-color: #231d1f;
-  border-color: #231d1f;
+  background-color: #3b3b3b;
+  border-color: #3b3b3b;
 }
 .panel-inverse > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #231d1f;
+  border-top-color: #3b3b3b;
 }
 .panel-inverse > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #231d1f;
+  border-bottom-color: #3b3b3b;
 }
 .panel-primary {
-  background-color: #6f6f6f;
+  background-color: #929ea8;
 }
 .panel-success {
-  background-color: #76bf3f;
+  background-color: #7dc926;
 }
 .panel-info {
-  background-color: #69abce;
+  background-color: #79bedb;
 }
 .panel-warning {
-  background-color: #f36b20;
+  background-color: #f57300;
 }
 .panel-danger {
   background-color: #d74b47;
 }
 .panel-inverse .panel-footer {
-  background-color: #261f21;
-  border-top-color: #151113;
+  background-color: #3e3e3e;
+  border-top-color: #2e2e2e;
 }
 .panel-none {
   background-color: transparent;
@@ -6911,6 +6911,675 @@ textarea:focus + .float-label {
   clip: auto;
   right: 100%;
   top: 5px;
+}
+/********************
+ * HTML CSS
+ */
+.chartWrap {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/********************
+  Box shadow and border radius styling
+*/
+.nvtooltip.with-3d-shadow,
+.with-3d-shadow .nvtooltip {
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+/********************
+ * TOOLTIP CSS
+ */
+.nvtooltip {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  font-family: Arial;
+  font-size: 13px;
+  text-align: left;
+  pointer-events: none;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*Give tooltips that old fade in transition by
+    putting a "with-transitions" class on the container div.
+*/
+.nvtooltip.with-transitions,
+.with-transitions .nvtooltip {
+  transition: opacity 250ms linear;
+  -moz-transition: opacity 250ms linear;
+  -webkit-transition: opacity 250ms linear;
+  transition-delay: 250ms;
+  -moz-transition-delay: 250ms;
+  -webkit-transition-delay: 250ms;
+}
+.nvtooltip.x-nvtooltip,
+.nvtooltip.y-nvtooltip {
+  padding: 8px;
+}
+.nvtooltip h3 {
+  margin: 0;
+  padding: 4px 14px;
+  line-height: 18px;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+.nvtooltip p {
+  margin: 0;
+  padding: 5px 14px;
+  text-align: center;
+}
+.nvtooltip span {
+  display: inline-block;
+  margin: 2px 0;
+}
+.nvtooltip table {
+  margin: 6px;
+  border-spacing: 0;
+}
+.nvtooltip table td {
+  padding: 2px 9px 2px 0;
+  vertical-align: middle;
+}
+.nvtooltip table td.key {
+  font-weight: normal;
+}
+.nvtooltip table td.value {
+  text-align: right;
+  font-weight: bold;
+}
+.nvtooltip table tr.highlight td {
+  padding: 1px 9px 1px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.nvtooltip table td.legend-color-guide div {
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+}
+.nvtooltip .footer {
+  padding: 3px;
+  text-align: center;
+}
+.nvtooltip-pending-removal {
+  position: absolute;
+  pointer-events: none;
+}
+/********************
+ * SVG CSS
+ */
+svg {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Trying to get SVG to act like a greedy block in all browsers */
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  font: normal 12px Arial;
+}
+svg .title {
+  font: bold 14px Arial;
+}
+.nvd3 .nv-background {
+  fill: white;
+  fill-opacity: 0;
+  /*
+  pointer-events: none;
+  */
+}
+.nvd3.nv-noData {
+  font-size: 18px;
+  font-weight: bold;
+}
+/**********
+*  Brush
+*/
+.nv-brush .extent {
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+/**********
+*  Legend
+*/
+.nvd3 .nv-legend .nv-series {
+  cursor: pointer;
+}
+.nvd3 .nv-legend .disabled circle {
+  fill-opacity: 0;
+}
+/**********
+*  Axes
+*/
+.nvd3 .nv-axis {
+  pointer-events: none;
+}
+.nvd3 .nv-axis path {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-opacity: .05;
+  shape-rendering: crispEdges;
+}
+.nvd3 .nv-axis path.domain {
+  stroke-opacity: .75;
+}
+.nvd3 .nv-axis.nv-x path.domain {
+  stroke-opacity: 0;
+}
+.nvd3 .nv-axis line {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.1);
+  shape-rendering: crispEdges;
+}
+.nvd3 .nv-axis .zero line,
+.nvd3 .nv-axis line.zero {
+  stroke-opacity: .75;
+}
+.nvd3 .nv-axis .nv-axisMaxMin text {
+  font-weight: bold;
+  fill: rgba(0, 0, 0, 0.25);
+}
+.nvd3 .x .nv-axis .nv-axisMaxMin text,
+.nvd3 .x2 .nv-axis .nv-axisMaxMin text,
+.nvd3 .x3 .nv-axis .nv-axisMaxMin text {
+  text-anchor: middle;
+}
+/**********
+*  Brush
+*/
+.nv-brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+/**********
+*  Bars
+*/
+.nvd3 .nv-bars .negative rect {
+  zfill: brown;
+}
+.nvd3 .nv-bars rect {
+  zfill: steelblue;
+  fill-opacity: .75;
+  transition: fill-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear;
+}
+.nvd3 .nv-bars rect.hover {
+  fill-opacity: 1;
+}
+.nvd3 .nv-bars .hover rect {
+  fill: lightblue;
+}
+.nvd3 .nv-bars text {
+  fill: rgba(0, 0, 0, 0);
+}
+.nvd3 .nv-bars .hover text {
+  fill: #000000;
+}
+/**********
+*  Bars
+*/
+.nvd3 .nv-multibar .nv-groups rect,
+.nvd3 .nv-multibarHorizontal .nv-groups rect,
+.nvd3 .nv-discretebar .nv-groups rect {
+  stroke-opacity: 0;
+  transition: fill-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear;
+}
+.nvd3 .nv-multibar .nv-groups rect:hover,
+.nvd3 .nv-multibarHorizontal .nv-groups rect:hover,
+.nvd3 .nv-discretebar .nv-groups rect:hover {
+  fill-opacity: 1;
+}
+.nvd3 .nv-discretebar .nv-groups text,
+.nvd3 .nv-multibarHorizontal .nv-groups text {
+  font-weight: bold;
+  fill: #000000;
+  stroke: rgba(0, 0, 0, 0);
+}
+/***********
+*  Pie Chart
+*/
+.nvd3.nv-pie path {
+  stroke-opacity: 0;
+  transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+}
+.nvd3.nv-pie .nv-slice text {
+  stroke: #000;
+  stroke-width: 0;
+}
+.nvd3.nv-pie path {
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+}
+.nvd3.nv-pie .hover path {
+  fill-opacity: .7;
+}
+.nvd3.nv-pie .nv-label {
+  pointer-events: none;
+}
+.nvd3.nv-pie .nv-label rect {
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+/**********
+* Lines
+*/
+.nvd3 .nv-groups path.nv-line {
+  fill: none;
+  stroke-width: 1.5px;
+  /*
+  stroke-linecap: round;
+  shape-rendering: geometricPrecision;
+
+  transition: stroke-width 250ms linear;
+  -moz-transition: stroke-width 250ms linear;
+  -webkit-transition: stroke-width 250ms linear;
+
+  transition-delay: 250ms
+  -moz-transition-delay: 250ms;
+  -webkit-transition-delay: 250ms;
+  */
+}
+.nvd3 .nv-groups path.nv-line.nv-thin-line {
+  stroke-width: 1px;
+}
+.nvd3 .nv-groups path.nv-area {
+  stroke: none;
+  /*
+  stroke-linecap: round;
+  shape-rendering: geometricPrecision;
+
+  stroke-width: 2.5px;
+  transition: stroke-width 250ms linear;
+  -moz-transition: stroke-width 250ms linear;
+  -webkit-transition: stroke-width 250ms linear;
+
+  transition-delay: 250ms
+  -moz-transition-delay: 250ms;
+  -webkit-transition-delay: 250ms;
+  */
+}
+.nvd3 .nv-line.hover path {
+  stroke-width: 6px;
+}
+/*
+.nvd3.scatter .groups .point {
+  fill-opacity: 0.1;
+  stroke-opacity: 0.1;
+}
+  */
+.nvd3.nv-line .nvd3.nv-scatter .nv-groups .nv-point {
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+.nvd3.nv-scatter.nv-single-point .nv-groups .nv-point {
+  fill-opacity: .5 !important;
+  stroke-opacity: .5 !important;
+}
+.with-transitions .nvd3 .nv-groups .nv-point {
+  transition: stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -moz-transition: stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -webkit-transition: stroke-width 250ms linear, stroke-opacity 250ms linear;
+}
+.nvd3.nv-scatter .nv-groups .nv-point.hover,
+.nvd3 .nv-groups .nv-point.hover {
+  stroke-width: 7px;
+  fill-opacity: .95 !important;
+  stroke-opacity: .95 !important;
+}
+.nvd3 .nv-point-paths path {
+  stroke: #aaa;
+  stroke-opacity: 0;
+  fill: #eee;
+  fill-opacity: 0;
+}
+.nvd3 .nv-indexLine {
+  cursor: ew-resize;
+}
+/**********
+* Distribution
+*/
+.nvd3 .nv-distribution {
+  pointer-events: none;
+}
+/**********
+*  Scatter
+*/
+/* **Attempting to remove this for useVoronoi(false), need to see if it's required anywhere
+.nvd3 .nv-groups .nv-point {
+  pointer-events: none;
+}
+*/
+.nvd3 .nv-groups .nv-point.hover {
+  stroke-width: 20px;
+  stroke-opacity: .5;
+}
+.nvd3 .nv-scatter .nv-point.hover {
+  fill-opacity: 1;
+}
+/*
+.nv-group.hover .nv-point {
+  fill-opacity: 1;
+}
+*/
+/**********
+*  Stacked Area
+*/
+.nvd3.nv-stackedarea path.nv-area {
+  fill-opacity: .7;
+  /*
+  stroke-opacity: .65;
+  fill-opacity: 1;
+  */
+  stroke-opacity: 0;
+  transition: fill-opacity 250ms linear, stroke-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear, stroke-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear, stroke-opacity 250ms linear;
+  /*
+  transition-delay: 500ms;
+  -moz-transition-delay: 500ms;
+  -webkit-transition-delay: 500ms;
+  */
+}
+.nvd3.nv-stackedarea path.nv-area.hover {
+  fill-opacity: .9;
+  /*
+  stroke-opacity: .85;
+  */
+}
+/*
+.d3stackedarea .groups path {
+  stroke-opacity: 0;
+}
+  */
+.nvd3.nv-stackedarea .nv-groups .nv-point {
+  stroke-opacity: 0;
+  fill-opacity: 0;
+}
+/*
+.nvd3.nv-stackedarea .nv-groups .nv-point.hover {
+  stroke-width: 20px;
+  stroke-opacity: .75;
+  fill-opacity: 1;
+}*/
+/**********
+*  Line Plus Bar
+*/
+.nvd3.nv-linePlusBar .nv-bar rect {
+  fill-opacity: .75;
+}
+.nvd3.nv-linePlusBar .nv-bar rect:hover {
+  fill-opacity: 1;
+}
+/**********
+*  Bullet
+*/
+.nvd3.nv-bullet {
+  font: 10px sans-serif;
+}
+.nvd3.nv-bullet .nv-measure {
+  fill-opacity: .8;
+}
+.nvd3.nv-bullet .nv-measure:hover {
+  fill-opacity: 1;
+}
+.nvd3.nv-bullet .nv-marker {
+  stroke: #000;
+  stroke-width: 2px;
+}
+.nvd3.nv-bullet .nv-markerTriangle {
+  stroke: #000;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+.nvd3.nv-bullet .nv-tick line {
+  stroke: #666;
+  stroke-width: .5px;
+}
+.nvd3.nv-bullet .nv-range.nv-s0 {
+  fill: #eee;
+}
+.nvd3.nv-bullet .nv-range.nv-s1 {
+  fill: #ddd;
+}
+.nvd3.nv-bullet .nv-range.nv-s2 {
+  fill: #ccc;
+}
+.nvd3.nv-bullet .nv-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.nvd3.nv-bullet .nv-subtitle {
+  fill: #999;
+}
+.nvd3.nv-bullet .nv-range {
+  fill: #bababa;
+  fill-opacity: .4;
+}
+.nvd3.nv-bullet .nv-range:hover {
+  fill-opacity: .7;
+}
+/**********
+* Sparkline
+*/
+.nvd3.nv-sparkline path {
+  fill: none;
+}
+.nvd3.nv-sparklineplus g.nv-hoverValue {
+  pointer-events: none;
+}
+.nvd3.nv-sparklineplus .nv-hoverValue line {
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+.nvd3.nv-sparklineplus,
+.nvd3.nv-sparklineplus g {
+  pointer-events: all;
+}
+.nvd3 .nv-hoverArea {
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+.nvd3.nv-sparklineplus .nv-xValue,
+.nvd3.nv-sparklineplus .nv-yValue {
+  /*
+  stroke: #666;
+  */
+  stroke-width: 0;
+  font-size: .9em;
+  font-weight: normal;
+}
+.nvd3.nv-sparklineplus .nv-yValue {
+  stroke: #f66;
+}
+.nvd3.nv-sparklineplus .nv-maxValue {
+  stroke: #2ca02c;
+  fill: #2ca02c;
+}
+.nvd3.nv-sparklineplus .nv-minValue {
+  stroke: #d62728;
+  fill: #d62728;
+}
+.nvd3.nv-sparklineplus .nv-currentValue {
+  /*
+  stroke: #444;
+  fill: #000;
+  */
+  font-weight: bold;
+  font-size: 1.1em;
+}
+/**********
+* historical stock
+*/
+.nvd3.nv-ohlcBar .nv-ticks .nv-tick {
+  stroke-width: 2px;
+}
+.nvd3.nv-ohlcBar .nv-ticks .nv-tick.hover {
+  stroke-width: 4px;
+}
+.nvd3.nv-ohlcBar .nv-ticks .nv-tick.positive {
+  stroke: #2ca02c;
+}
+.nvd3.nv-ohlcBar .nv-ticks .nv-tick.negative {
+  stroke: #d62728;
+}
+.nvd3.nv-historicalStockChart .nv-axis .nv-axislabel {
+  font-weight: bold;
+}
+.nvd3.nv-historicalStockChart .nv-dragTarget {
+  fill-opacity: 0;
+  stroke: none;
+  cursor: move;
+}
+.nvd3 .nv-brush .extent {
+  /*
+  cursor: ew-resize !important;
+  */
+  fill-opacity: 0 !important;
+}
+.nvd3 .nv-brushBackground rect {
+  stroke: #000;
+  stroke-width: .4;
+  fill: #fff;
+  fill-opacity: .7;
+}
+/**********
+* Indented Tree
+*/
+/**
+ * TODO: the following 3 selectors are based on classes used in the example.  I should either make them standard and leave them here, or move to a CSS file not included in the library
+ */
+.nvd3.nv-indentedtree .name {
+  margin-left: 5px;
+}
+.nvd3.nv-indentedtree .clickable {
+  color: #08C;
+  cursor: pointer;
+}
+.nvd3.nv-indentedtree span.clickable:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.nvd3.nv-indentedtree .nv-childrenCount {
+  display: inline-block;
+  margin-left: 5px;
+}
+.nvd3.nv-indentedtree .nv-treeicon {
+  cursor: pointer;
+  /*
+  cursor: n-resize;
+  */
+}
+.nvd3.nv-indentedtree .nv-treeicon.nv-folded {
+  cursor: pointer;
+  /*
+  cursor: s-resize;
+  */
+}
+/**********
+* Parallel Coordinates
+*/
+.nvd3 .background path {
+  fill: none;
+  stroke: #ccc;
+  stroke-opacity: .4;
+  shape-rendering: crispEdges;
+}
+.nvd3 .foreground path {
+  fill: none;
+  stroke: steelblue;
+  stroke-opacity: .7;
+}
+.nvd3 .brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+.nvd3 .axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.nvd3 .axis text {
+  text-shadow: 0 1px 0 #fff;
+}
+/****
+Interactive Layer
+*/
+.nvd3 .nv-interactiveGuideLine {
+  pointer-events: none;
+}
+.nvd3 line.nv-guideline {
+  stroke: #ccc;
+}
+/****
+Custom
+*/
+.nvd3 svg text {
+  fill: rgba(0, 0, 0, 0.35) !important;
+}
+.nvd3 .panel-inverse svg text,
+.nvd3 .content-inverse svg text {
+  fill: rgba(255, 255, 255, 0.75) !important;
+}
+.nv-linePlusBar .nv-series-0 .nv-line {
+  stroke: #fff !important;
+  stroke-width: 3 !important;
+  filter: url(#dropshadow);
+}
+.nv-linePlusBar .nv-bars rect {
+  stroke: rgba(0, 0, 0, 0.1) !important;
+  stroke-width: 1 !important;
+  fill-opacity: 0.4;
+}
+.bar-success .nv-discreteBarWithAxes .nv-discretebar rect {
+  stroke: rgba(255, 255, 255, 0.5) !important;
+  stroke-width: 1 !important;
+  fill: rgba(118, 191, 63, 0.75) !important;
+  filter: url(#dropshadow);
+}
+.nv-multiBarWithLegend .nv-series-0 rect {
+  stroke: rgba(255, 255, 255, 0.5) !important;
+  stroke-width: 1 !important;
+  filter: url(#dropshadow);
+}
+.nv-discreteBarWithAxes .nv-discretebar rect {
+  stroke-opacity: 1 !important;
+  fill-opacity: 1 !important;
+}
+.nv-lineChart .nv-series-0 .nv-line {
+  stroke: rgba(255, 255, 255, 0.65) !important;
+  stroke-width: 2 !important;
+  filter: url(#dropshadow);
 }
 /*!
  * Stylesheet for the Date Range Picker, for use with Bootstrap 3.x
@@ -7011,8 +7680,8 @@ textarea:focus + .float-label {
 }
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
-  background: #4295c2;
-  border: 1px solid #4295c2;
+  background: #51abd0;
+  border: 1px solid #51abd0;
   color: #fff;
 }
 .daterangepicker .calendar-date {
@@ -7112,8 +7781,8 @@ textarea:focus + .float-label {
 }
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-  background-color: #4295c2;
-  border-color: #4295c2;
+  background-color: #51abd0;
+  border-color: #51abd0;
   color: #fff;
 }
 .daterangepicker td.week,
@@ -7269,47 +7938,47 @@ textarea:focus + .float-label {
 }
 .bubble-info.bubble-right {
   color: white;
-  background: #4295c2;
-  background-image: -webkit-linear-gradient(top, #4295c2 0%, #4fc3ab 80%);
-  background-image: linear-gradient(to bottom, #4295c2 0%, #4fc3ab 80%);
+  background: #51abd0;
+  background-image: -webkit-linear-gradient(top, #51abd0 0%, #4fc3ab 80%);
+  background-image: linear-gradient(to bottom, #51abd0 0%, #4fc3ab 80%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4295c2', endColorstr='#ff4fc3ab', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff51abd0', endColorstr='#ff4fc3ab', GradientType=0);
 }
 .bubble-info.bubble-right:before {
   border-left: 20px solid #4FC3AB;
 }
 .bubble-info.bubble-left {
   color: white;
-  background: #4295c2;
-  background-image: -webkit-linear-gradient(top, #4295c2 0%, #4fc3ab 80%);
-  background-image: linear-gradient(to bottom, #4295c2 0%, #4fc3ab 80%);
+  background: #51abd0;
+  background-image: -webkit-linear-gradient(top, #51abd0 0%, #4fc3ab 80%);
+  background-image: linear-gradient(to bottom, #51abd0 0%, #4fc3ab 80%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4295c2', endColorstr='#ff4fc3ab', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff51abd0', endColorstr='#ff4fc3ab', GradientType=0);
 }
 .bubble-info.bubble-left:before {
   border-left: 20px solid #4FC3AB;
 }
 .bubble-inverse.bubble-right {
   color: white;
-  background: #181415;
-  background-image: -webkit-linear-gradient(top, #181415 0%, #201b1d 80%);
-  background-image: linear-gradient(to bottom, #181415 0%, #201b1d 80%);
+  background: #313131;
+  background-image: -webkit-linear-gradient(top, #313131 0%, #383838 80%);
+  background-image: linear-gradient(to bottom, #313131 0%, #383838 80%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff181415', endColorstr='#ff201b1d', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff313131', endColorstr='#ff383838', GradientType=0);
 }
 .bubble-inverse.bubble-right:before {
-  border-left: 20px solid #201b1d;
+  border-left: 20px solid #383838;
 }
 .bubble-inverse.bubble-left {
   color: #fafafa;
-  background: #181415;
-  background-image: -webkit-linear-gradient(top, #181415 0%, #201b1d 80%);
-  background-image: linear-gradient(to bottom, #181415 0%, #201b1d 80%);
+  background: #313131;
+  background-image: -webkit-linear-gradient(top, #313131 0%, #383838 80%);
+  background-image: linear-gradient(to bottom, #313131 0%, #383838 80%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff181415', endColorstr='#ff201b1d', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff313131', endColorstr='#ff383838', GradientType=0);
 }
 .bubble-inverse.bubble-left:before {
-  border-left: 20px solid #201b1d;
+  border-left: 20px solid #383838;
 }
 .main-default .bubble-right:after {
   background: #ffffff;
@@ -7318,10 +7987,10 @@ textarea:focus + .float-label {
   background: #ffffff;
 }
 .main-inverse .bubble-right:after {
-  background: #2b2426;
+  background: #434343;
 }
 .main-inverse .bubble-left:after {
-  background: #2b2426;
+  background: #434343;
 }
 .radius-none {
   border-radius: 0;
