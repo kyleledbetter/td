@@ -792,12 +792,19 @@ Custom
     fill-opacity: 0.4;
   }
 }
-.bar-success {
-  .nv-discreteBarWithAxes .nv-discretebar rect {
+.nv-discreteBarWithAxes .nv-discretebar rect {
     stroke: rgba(255, 255, 255, 0.5) !important;
     stroke-width: 1 !important;
-    fill: rgba(118, 191, 63, 0.75) !important;
     filter: url(#dropshadow);
+  }
+.bar-success {
+  .nv-discreteBarWithAxes .nv-discretebar rect {
+    fill: rgba(118, 191, 63, 0.75) !important;
+  }
+}
+.bar-warning {
+  .nv-discreteBarWithAxes .nv-discretebar rect {
+    fill: rgba(235, 110, 0, 0.75) !important;
   }
 }
 .nv-multiBarWithLegend .nv-series-0 rect {
